@@ -1,0 +1,52 @@
+name: Laboratorio de optimización
+
+# Se lanza solo a mano. Prueba 56 configuraciones sobre el tramo de diseño
+# y valida las 5 mejores sobre datos que nunca influyeron en la selección.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  optimizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r engine/requirements.txt
+
+      # Guarda los precios descargados para que las siguientes
+      # ejecuciones no tengan que volver a bajarlos.
+      - name: Recuperar caché de precios
+        uses: actions/cache@v4
+        with:
+          path: engine/cache_precios.parquet
+          key: precios-v2-${{ github.run_id }}
+          restore-keys: precios-v2-
+
+      - name: Ejecutar el laboratorio
+        working-directory: engine
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python lab.py
+
+      - name: Publicar resultados
+        run: |
+          git config user.name  "motor-swing"
+          git config user.email "actions@github.com"
+          git add public/data/lab.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Resultados del laboratorio"
+            git push
+          fi
