@@ -6,29 +6,29 @@
     "CSCO": {
       "fecha": "2026-08-18",
       "precio": 110.74,
-      "precio_actual": 110.74,
+      "precio_actual": 111.61,
       "acciones": 4,
       "stop": 100.06,
-      "pnl_pct": 0.0,
-      "dias": 0
+      "pnl_pct": 0.79,
+      "dias": 1
     },
     "GRMN": {
       "fecha": "2026-08-18",
       "precio": 298.25,
-      "precio_actual": 298.25,
+      "precio_actual": 297.44,
       "acciones": 2,
       "stop": 276.37,
-      "pnl_pct": 0.0,
-      "dias": 0
+      "pnl_pct": -0.27,
+      "dias": 1
     },
     "FFIV": {
       "fecha": "2026-08-18",
       "precio": 392.62,
-      "precio_actual": 392.62,
+      "precio_actual": 393.62,
       "acciones": 1,
       "stop": 355.44,
-      "pnl_pct": 0.0,
-      "dias": 0
+      "pnl_pct": 0.25,
+      "dias": 1
     }
   },
   "cerradas": [],
@@ -36,6 +36,10 @@
     {
       "d": "2026-08-18",
       "v": 4998.59
+    },
+    {
+      "d": "2026-08-18",
+      "v": 5001.45
     }
   ]
 }
