@@ -1,3 +1,10 @@
+export type Fundamental = {
+  sector: string | null;
+  per: number | null;
+  cap_b: number | null;
+  margen_pct: number | null;
+};
+
 export type Senal = {
   ticker: string;
   precio_ref: number;
@@ -8,6 +15,21 @@ export type Senal = {
   rsi: number;
   atr: number;
   roc: number;
+  sma200?: number;
+  sma50?: number;
+  vol_dolar_m?: number;
+  ranking?: number;
+  num_candidatos?: number;
+  fundamental?: Fundamental;
+};
+
+export type ParametrosPullback = {
+  riesgo_por_op: number;
+  atr_multiplo_stop: number;
+  max_peso_posicion: number;
+  rsi_entrada: number;
+  rsi_salida: number;
+  max_dias_posicion: number;
 };
 
 export type Posicion = {
@@ -51,6 +73,7 @@ export type Resultados = {
   es_demo: boolean;
   regimen: { alcista: boolean; spy: number; sma200: number; distancia_pct: number };
   senales: Senal[];
+  parametros_pullback?: ParametrosPullback;
   cartera: Cartera;
   cartera_momentum?: Cartera;
   top_momentum?: string[];
