@@ -294,3 +294,53 @@ a { color: var(--ambar); }
   .envoltura { padding: 32px 18px 72px; }
   .celda-valor { font-size: 19px; }
 }
+
+/* --- Comparativa de carteras ------------------------------------------- */
+
+.duo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.panel {
+  background: var(--superficie);
+  border: 1px solid var(--borde-suave);
+  border-radius: var(--radio);
+  padding: 20px;
+}
+
+.panel--activo { border-color: var(--borde); }
+
+.panel-titulo {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.etiqueta {
+  font-family: var(--dato);
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--apagado);
+  border: 1px solid var(--borde);
+  border-radius: 3px;
+  padding: 2px 6px;
+  white-space: nowrap;
+}
+
+.panel-cifra {
+  font-family: var(--dato);
+  font-size: 27px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  margin: 12px 0 2px;
+}
+
+.fecha-entrada { color: var(--apagado); font-size: 12.5px; }
