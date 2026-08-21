@@ -414,6 +414,31 @@ def obtener_universo():
     return universo
 
 
+def fundamentales(tickers):
+    """Contexto fundamental basico para un puñado de tickers (no para
+    el universo entero: cada consulta es una peticion HTTP y con 500
+    valores se dispararia el tiempo de ejecucion).
+
+    Es solo informativo. La estrategia sigue siendo tecnica: esto no
+    filtra ni pondera ninguna decision, solo da contexto a la persona
+    que va a pulsar "comprar" en el broker.
+    """
+    import yfinance as yf
+    out = {}
+    for t in tickers:
+        try:
+            info = yf.Ticker(t).get_info()
+            out[t] = {
+                "sector": info.get("sector"),
+                "per": round(info["trailingPE"], 1) if info.get("trailingPE") else None,
+                "cap_b": round(info["marketCap"] / 1e9, 1) if info.get("marketCap") else None,
+                "margen_pct": round(info["profitMargins"] * 100, 1) if info.get("profitMargins") is not None else None,
+            }
+        except Exception:
+            out[t] = {"sector": None, "per": None, "cap_b": None, "margen_pct": None}
+    return out
+
+
 def descargar(tickers, inicio, fin):
     """Descarga OHLCV con yfinance y devuelve un dict de DataFrames."""
     import yfinance as yf
