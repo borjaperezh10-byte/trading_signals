@@ -272,6 +272,8 @@ def main():
     precios_hoy = cierres.iloc[-1]
 
     # --- Senyales de pullback ---
+    # Se guarda cada criterio evaluado (no solo si paso o no) para poder
+    # explicar despues, en la web, exactamente por que se eligio cada valor.
     senales = []
     if regimen_ok:
         for tk, d in datos.items():
@@ -285,8 +287,22 @@ def main():
                     "rsi": round(float(f["rsi"]), 1),
                     "atr": round(float(f["atr"]), 2),
                     "roc": round(float(f["roc"]), 1),
+                    "sma200": round(float(f["sma_larga"]), 2),
+                    "sma50": round(float(f["sma_media"]), 2),
+                    "vol_dolar_m": round(float(f["vol_dolar"]) / 1e6, 1),
                 })
         senales.sort(key=lambda x: x["roc"], reverse=True)
+        for i, s in enumerate(senales):
+            s["ranking"] = i + 1
+        num_candidatos = len(senales)
+
+        # Contexto fundamental: solo para las que realmente van a mostrarse,
+        # nunca para el universo entero (cada consulta es una peticion HTTP).
+        from backtest_v1 import fundamentales
+        fund = fundamentales([s["ticker"] for s in senales[:10]])
+        for s in senales[:10]:
+            s["fundamental"] = fund.get(s["ticker"], {})
+            s["num_candidatos"] = num_candidatos
     print(f"  Senyales pullback: {len(senales)}")
 
     carteras = cargar()
@@ -333,6 +349,14 @@ def main():
                     "sma200": round(sma200, 2),
                     "distancia_pct": round((spy / sma200 - 1) * 100, 2)},
         "senales": senales[:10],
+        "parametros_pullback": {
+            "riesgo_por_op": CONFIG["riesgo_por_op"],
+            "atr_multiplo_stop": CONFIG["atr_multiplo_stop"],
+            "max_peso_posicion": MAX_PESO,
+            "rsi_entrada": CONFIG["rsi_entrada"],
+            "rsi_salida": CONFIG["rsi_salida"],
+            "max_dias_posicion": CONFIG["max_dias_posicion"],
+        },
         "cartera": exportar(carteras["pullback"], eq_pb),
         "cartera_momentum": exportar(carteras["momentum"], eq_mm),
         "top_momentum": top[:10],
