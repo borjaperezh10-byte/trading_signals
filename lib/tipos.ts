@@ -23,6 +23,7 @@ export type Posicion = {
 
 export type Cerrada = {
   ticker: string;
+  acciones?: number;
   entrada_fecha: string;
   salida_fecha: string;
   entrada: number;
