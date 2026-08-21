@@ -33,21 +33,26 @@ export type Cerrada = {
   motivo: string;
 };
 
+export type Cartera = {
+  equity: number;
+  cash: number;
+  capital_inicial: number;
+  retorno_pct: number;
+  posiciones: Posicion[];
+  cerradas: Cerrada[];
+  curva: { d: string; v: number }[];
+  ultimo_rebalanceo?: string | null;
+};
+
 export type Resultados = {
   generado: string;
   fecha_datos: string;
   es_demo: boolean;
   regimen: { alcista: boolean; spy: number; sma200: number; distancia_pct: number };
   senales: Senal[];
-  cartera: {
-    equity: number;
-    cash: number;
-    capital_inicial: number;
-    retorno_pct: number;
-    posiciones: Posicion[];
-    cerradas: Cerrada[];
-    curva: { d: string; v: number }[];
-  };
+  cartera: Cartera;
+  cartera_momentum?: Cartera;
+  top_momentum?: string[];
   metricas: Record<string, string | number>;
   buy_and_hold_spy: number;
   curva_backtest: { d: string; v: number }[];
