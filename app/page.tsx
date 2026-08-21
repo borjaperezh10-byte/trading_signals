@@ -11,6 +11,11 @@ const eur = (n: number) =>
   n.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
 const signo = (n: number) => (n >= 0 ? "+" : "");
+
+// Las acciones son decimales (fracciones), asi que se muestran con
+// hasta 2 decimales pero sin ceros sobrantes: 3 en vez de 3,00
+const acc = (n: number) =>
+  n.toLocaleString("es-ES", { maximumFractionDigits: 2 });
 const clase = (n: number) => (n >= 0 ? "positivo" : "negativo");
 
 const fecha = (s: string) =>
@@ -97,24 +102,50 @@ function BloqueCartera({ c, titulo, etiqueta, nota }:
           <table className="tabla">
             <thead>
               <tr>
-                <th>Valor</th><th>Entrada</th><th>Precio</th>
-                <th>Actual</th><th>Result.</th><th>Días</th>
+                <th>Valor</th><th>Entrada</th><th>Acc.</th>
+                <th>Compra</th><th>Actual</th><th>Total</th>
+                <th>Stop</th><th>Result.</th>
               </tr>
             </thead>
             <tbody>
-              {c.posiciones.map((p) => (
-                <tr key={p.ticker}>
-                  <td style={{ fontWeight: 600 }}>{p.ticker}</td>
-                  <td className="fecha-entrada">{fechaLarga(p.fecha)}</td>
-                  <td>{eur(p.precio)}</td>
-                  <td>{eur(p.precio_actual)}</td>
-                  <td className={clase(p.pnl_pct)}>
-                    {signo(p.pnl_pct)}{p.pnl_pct}%
-                  </td>
-                  <td>{diasDesde(p.fecha)}</td>
-                </tr>
-              ))}
+              {c.posiciones.map((p) => {
+                const total = p.precio_actual * p.acciones;
+                const invertido = p.precio * p.acciones;
+                return (
+                  <tr key={p.ticker}>
+                    <td style={{ fontWeight: 600 }}>{p.ticker}</td>
+                    <td className="fecha-entrada">
+                      {fechaLarga(p.fecha)}
+                      <span style={{ opacity: 0.6 }}> · {diasDesde(p.fecha)}d</span>
+                    </td>
+                    <td>{acc(p.acciones)}</td>
+                    <td>{eur(p.precio)}</td>
+                    <td>{eur(p.precio_actual)}</td>
+                    <td style={{ fontWeight: 600 }}>{eur(total)}</td>
+                    <td className={p.stop > 0 ? "negativo" : ""}>
+                      {p.stop > 0 ? eur(p.stop) : "—"}
+                    </td>
+                    <td className={clase(p.pnl_pct)}>
+                      {signo(p.pnl_pct)}{p.pnl_pct}%
+                      <span style={{ opacity: 0.65, fontSize: "0.85em" }}>
+                        {" "}({signo(total - invertido)}{eur(total - invertido)})
+                      </span>
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
+            <tfoot>
+              <tr className="fila-total">
+                <td colSpan={5}>Invertido</td>
+                <td style={{ fontWeight: 600 }}>
+                  {eur(c.posiciones.reduce((a, p) => a + p.precio_actual * p.acciones, 0))}
+                </td>
+                <td colSpan={2} style={{ color: "var(--apagado)" }}>
+                  + {eur(c.cash)} en liquidez
+                </td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       )}
@@ -133,8 +164,9 @@ function BloqueCartera({ c, titulo, etiqueta, nota }:
             <table className="tabla">
               <thead>
                 <tr>
-                  <th>Valor</th><th>Entrada</th><th>Salida</th>
-                  <th>Result.</th><th>Días</th><th>Motivo</th>
+                  <th>Valor</th><th>Entrada</th><th>Salida</th><th>Acc.</th>
+                  <th>Compra</th><th>Venta</th><th>Result.</th>
+                  <th>Días</th><th>Motivo</th>
                 </tr>
               </thead>
               <tbody>
@@ -143,8 +175,14 @@ function BloqueCartera({ c, titulo, etiqueta, nota }:
                     <td style={{ fontWeight: 600 }}>{x.ticker}</td>
                     <td className="fecha-entrada">{fechaLarga(x.entrada_fecha)}</td>
                     <td className="fecha-entrada">{fechaLarga(x.salida_fecha)}</td>
+                    <td>{acc(x.acciones ?? 0)}</td>
+                    <td>{eur(x.entrada)}</td>
+                    <td>{eur(x.salida)}</td>
                     <td className={clase(x.pnl_pct)}>
                       {signo(x.pnl_pct)}{x.pnl_pct}%
+                      <span style={{ opacity: 0.65, fontSize: "0.85em" }}>
+                        {" "}({signo(x.pnl)}{eur(x.pnl)})
+                      </span>
                     </td>
                     <td>{x.dias}</td>
                     <td style={{ color: "var(--apagado)" }}>{x.motivo}</td>

@@ -344,3 +344,11 @@ a { color: var(--ambar); }
 }
 
 .fecha-entrada { color: var(--apagado); font-size: 12.5px; }
+
+.tabla tfoot .fila-total td {
+  border-top: 1px solid var(--borde);
+  border-bottom: 0;
+  padding-top: 12px;
+  color: var(--texto-medio);
+  font-size: 12.5px;
+}
