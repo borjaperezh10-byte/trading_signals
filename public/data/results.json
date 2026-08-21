@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-20T21:53:50.252895+00:00",
+  "generado": "2026-08-21T10:49:52.673048+00:00",
   "fecha_datos": "2026-08-20",
   "es_demo": false,
   "regimen": {
@@ -16,9 +16,9 @@
       "rsi": 24.9,
       "atr": 31.6,
       "roc": 266.9,
-      "acciones": 0,
-      "importe": 0.0,
-      "riesgo_eur": 0.0
+      "acciones": 0.63,
+      "importe": 273.91,
+      "riesgo_eur": 49.77
     },
     {
       "ticker": "HPE",
@@ -27,9 +27,9 @@
       "rsi": 25.8,
       "atr": 3.05,
       "roc": 149.6,
-      "acciones": 6,
-      "importe": 317.34,
-      "riesgo_eur": 45.69
+      "acciones": 6.56,
+      "importe": 346.96,
+      "riesgo_eur": 49.98
     },
     {
       "ticker": "PANW",
@@ -38,9 +38,9 @@
       "rsi": 17.7,
       "atr": 15.24,
       "roc": 131.5,
-      "acciones": 1,
-      "importe": 349.56,
-      "riesgo_eur": 38.1
+      "acciones": 1.31,
+      "importe": 457.92,
+      "riesgo_eur": 49.91
     },
     {
       "ticker": "INTC",
@@ -49,9 +49,9 @@
       "rsi": 22.3,
       "atr": 6.77,
       "roc": 106.5,
-      "acciones": 2,
-      "importe": 184.26,
-      "riesgo_eur": 33.84
+      "acciones": 2.95,
+      "importe": 271.78,
+      "riesgo_eur": 49.92
     },
     {
       "ticker": "ARM",
@@ -60,9 +60,9 @@
       "rsi": 24.5,
       "atr": 21.47,
       "roc": 97.5,
-      "acciones": 0,
-      "importe": 0.0,
-      "riesgo_eur": 0.0
+      "acciones": 0.93,
+      "importe": 233.17,
+      "riesgo_eur": 49.93
     },
     {
       "ticker": "DDOG",
@@ -71,9 +71,9 @@
       "rsi": 26.8,
       "atr": 15.2,
       "roc": 92.8,
-      "acciones": 1,
-      "importe": 232.55,
-      "riesgo_eur": 37.99
+      "acciones": 1.32,
+      "importe": 306.97,
+      "riesgo_eur": 50.14
     },
     {
       "ticker": "NTAP",
@@ -82,20 +82,20 @@
       "rsi": 26.8,
       "atr": 7.56,
       "roc": 91.3,
-      "acciones": 2,
-      "importe": 385.62,
-      "riesgo_eur": 37.8
+      "acciones": 2.64,
+      "importe": 509.02,
+      "riesgo_eur": 49.89
     },
     {
       "ticker": "FTNT",
       "precio_ref": 150.79,
-      "stop": 135.15,
+      "stop": 135.14,
       "rsi": 23.3,
       "atr": 6.26,
       "roc": 84.6,
-      "acciones": 3,
-      "importe": 452.37,
-      "riesgo_eur": 46.92
+      "acciones": 3.19,
+      "importe": 481.02,
+      "riesgo_eur": 49.91
     },
     {
       "ticker": "CRWD",
@@ -104,9 +104,9 @@
       "rsi": 11.5,
       "atr": 9.61,
       "roc": 80.4,
-      "acciones": 2,
-      "importe": 380.68,
-      "riesgo_eur": 48.04
+      "acciones": 2.08,
+      "importe": 395.91,
+      "riesgo_eur": 49.96
     },
     {
       "ticker": "FLEX",
@@ -115,78 +115,206 @@
       "rsi": 19.8,
       "atr": 7.77,
       "roc": 69.4,
-      "acciones": 2,
-      "importe": 220.64,
-      "riesgo_eur": 38.87
+      "acciones": 2.57,
+      "importe": 283.52,
+      "riesgo_eur": 49.95
     }
   ],
   "cartera": {
-    "equity": 4966.92,
-    "cash": 3247.25,
+    "equity": 4997.64,
+    "cash": 3410.81,
     "capital_inicial": 5000.0,
-    "retorno_pct": -0.66,
+    "retorno_pct": -0.05,
     "posiciones": [
       {
-        "ticker": "CSCO",
-        "fecha": "2026-08-18",
-        "precio": 110.74,
-        "precio_actual": 109.59,
-        "acciones": 4,
-        "stop": 100.06,
-        "pnl_pct": -1.04,
-        "dias": 3
-      },
-      {
-        "ticker": "GRMN",
-        "fecha": "2026-08-18",
-        "precio": 298.25,
-        "precio_actual": 293.09,
-        "acciones": 2,
-        "stop": 276.37,
-        "pnl_pct": -1.73,
-        "dias": 3
-      },
-      {
-        "ticker": "FFIV",
-        "fecha": "2026-08-18",
-        "precio": 392.62,
-        "precio_actual": 377.79,
-        "acciones": 1,
-        "stop": 355.44,
-        "pnl_pct": -3.78,
-        "dias": 3
+        "ticker": "DELL",
+        "fecha": "2026-08-20",
+        "precio": 435.0,
+        "precio_actual": 434.78,
+        "acciones": 0.633,
+        "stop": 355.79,
+        "pnl_pct": -0.05,
+        "dias": 0
       },
       {
         "ticker": "HPE",
-        "fecha": "2026-08-19",
-        "precio": 53.16,
+        "fecha": "2026-08-20",
+        "precio": 52.92,
         "precio_actual": 52.89,
-        "acciones": 6,
-        "stop": 45.24,
-        "pnl_pct": -0.51,
-        "dias": 1
+        "acciones": 6.563,
+        "stop": 45.27,
+        "pnl_pct": -0.06,
+        "dias": 0
+      },
+      {
+        "ticker": "PANW",
+        "fecha": "2026-08-20",
+        "precio": 349.73,
+        "precio_actual": 349.56,
+        "acciones": 1.3124,
+        "stop": 311.46,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "INTC",
+        "fecha": "2026-08-20",
+        "precio": 92.18,
+        "precio_actual": 92.13,
+        "acciones": 2.9547,
+        "stop": 75.21,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "ARM",
+        "fecha": "2026-08-20",
+        "precio": 250.85,
+        "precio_actual": 250.72,
+        "acciones": 0.9314,
+        "stop": 197.04,
+        "pnl_pct": -0.05,
+        "dias": 0
       }
     ],
     "cerradas": [],
     "curva": [
       {
-        "d": "2026-08-18",
-        "v": 4998.59
+        "d": "2026-08-20",
+        "v": 4997.64
+      }
+    ],
+    "ultimo_rebalanceo": null
+  },
+  "cartera_momentum": {
+    "equity": 4992.6,
+    "cash": 4.93,
+    "capital_inicial": 5000.0,
+    "retorno_pct": -0.15,
+    "posiciones": [
+      {
+        "ticker": "SNDK",
+        "fecha": "2026-08-20",
+        "precio": 1601.42,
+        "precio_actual": 1600.62,
+        "acciones": 0.3124,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
       },
       {
-        "d": "2026-08-18",
-        "v": 5001.45
+        "ticker": "MU",
+        "fecha": "2026-08-20",
+        "precio": 974.82,
+        "precio_actual": 974.33,
+        "acciones": 0.5132,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
       },
       {
-        "d": "2026-08-19",
-        "v": 4982.38
+        "ticker": "WDC",
+        "fecha": "2026-08-20",
+        "precio": 469.28,
+        "precio_actual": 469.05,
+        "acciones": 1.066,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
       },
+      {
+        "ticker": "LITE",
+        "fecha": "2026-08-20",
+        "precio": 879.72,
+        "precio_actual": 879.28,
+        "acciones": 0.5686,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "STX",
+        "fecha": "2026-08-20",
+        "precio": 850.67,
+        "precio_actual": 850.24,
+        "acciones": 0.5881,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "CIEN",
+        "fecha": "2026-08-20",
+        "precio": 392.68,
+        "precio_actual": 392.48,
+        "acciones": 1.274,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "INTC",
+        "fecha": "2026-08-20",
+        "precio": 92.18,
+        "precio_actual": 92.13,
+        "acciones": 5.4271,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "TER",
+        "fecha": "2026-08-20",
+        "precio": 383.34,
+        "precio_actual": 383.15,
+        "acciones": 1.305,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "AMD",
+        "fecha": "2026-08-20",
+        "precio": 469.69,
+        "precio_actual": 469.46,
+        "acciones": 1.0651,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      {
+        "ticker": "DELL",
+        "fecha": "2026-08-20",
+        "precio": 435.0,
+        "precio_actual": 434.78,
+        "acciones": 1.1214,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      }
+    ],
+    "cerradas": [],
+    "curva": [
       {
         "d": "2026-08-20",
-        "v": 4966.92
+        "v": 4992.6
       }
-    ]
+    ],
+    "ultimo_rebalanceo": "2026-08-20"
   },
+  "top_momentum": [
+    "SNDK",
+    "MU",
+    "WDC",
+    "LITE",
+    "STX",
+    "CIEN",
+    "INTC",
+    "TER",
+    "AMD",
+    "DELL"
+  ],
+  "universo": 510,
   "metricas": {
     "Capital inicial": "5,000",
     "Capital final": "4,506",
@@ -2634,6 +2762,5 @@
       "d": "2026-08-23",
       "v": 4505.98
     }
-  ],
-  "universo": 510
+  ]
 }

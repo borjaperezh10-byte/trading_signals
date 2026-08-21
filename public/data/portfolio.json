@@ -1,62 +1,165 @@
 {
-  "es_demo": false,
-  "capital_inicial": 5000.0,
-  "cash": 3247.2539116259277,
-  "posiciones": {
-    "CSCO": {
-      "fecha": "2026-08-18",
-      "precio": 110.74,
-      "precio_actual": 109.59,
-      "acciones": 4,
-      "stop": 100.06,
-      "pnl_pct": -1.04,
-      "dias": 3
+  "pullback": {
+    "cash": 3410.805123146749,
+    "capital_inicial": 5000.0,
+    "posiciones": {
+      "DELL": {
+        "fecha": "2026-08-20",
+        "precio": 435.0,
+        "precio_actual": 434.78,
+        "acciones": 0.633,
+        "stop": 355.79,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "HPE": {
+        "fecha": "2026-08-20",
+        "precio": 52.92,
+        "precio_actual": 52.89,
+        "acciones": 6.563,
+        "stop": 45.27,
+        "pnl_pct": -0.06,
+        "dias": 0
+      },
+      "PANW": {
+        "fecha": "2026-08-20",
+        "precio": 349.73,
+        "precio_actual": 349.56,
+        "acciones": 1.3124,
+        "stop": 311.46,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "INTC": {
+        "fecha": "2026-08-20",
+        "precio": 92.18,
+        "precio_actual": 92.13,
+        "acciones": 2.9547,
+        "stop": 75.21,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "ARM": {
+        "fecha": "2026-08-20",
+        "precio": 250.85,
+        "precio_actual": 250.72,
+        "acciones": 0.9314,
+        "stop": 197.04,
+        "pnl_pct": -0.05,
+        "dias": 0
+      }
     },
-    "GRMN": {
-      "fecha": "2026-08-18",
-      "precio": 298.25,
-      "precio_actual": 293.09,
-      "acciones": 2,
-      "stop": 276.37,
-      "pnl_pct": -1.73,
-      "dias": 3
-    },
-    "FFIV": {
-      "fecha": "2026-08-18",
-      "precio": 392.62,
-      "precio_actual": 377.79,
-      "acciones": 1,
-      "stop": 355.44,
-      "pnl_pct": -3.78,
-      "dias": 3
-    },
-    "HPE": {
-      "fecha": "2026-08-19",
-      "precio": 53.16,
-      "precio_actual": 52.89,
-      "acciones": 6,
-      "stop": 45.24,
-      "pnl_pct": -0.51,
-      "dias": 1
-    }
+    "cerradas": [],
+    "historico_equity": [
+      {
+        "d": "2026-08-20",
+        "v": 4997.64
+      }
+    ],
+    "ultimo_rebalanceo": null
   },
-  "cerradas": [],
-  "historico_equity": [
-    {
-      "d": "2026-08-18",
-      "v": 4998.59
+  "momentum": {
+    "cash": 4.932477499999948,
+    "capital_inicial": 5000.0,
+    "posiciones": {
+      "SNDK": {
+        "fecha": "2026-08-20",
+        "precio": 1601.42,
+        "precio_actual": 1600.62,
+        "acciones": 0.3124,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "MU": {
+        "fecha": "2026-08-20",
+        "precio": 974.82,
+        "precio_actual": 974.33,
+        "acciones": 0.5132,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "WDC": {
+        "fecha": "2026-08-20",
+        "precio": 469.28,
+        "precio_actual": 469.05,
+        "acciones": 1.066,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "LITE": {
+        "fecha": "2026-08-20",
+        "precio": 879.72,
+        "precio_actual": 879.28,
+        "acciones": 0.5686,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "STX": {
+        "fecha": "2026-08-20",
+        "precio": 850.67,
+        "precio_actual": 850.24,
+        "acciones": 0.5881,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "CIEN": {
+        "fecha": "2026-08-20",
+        "precio": 392.68,
+        "precio_actual": 392.48,
+        "acciones": 1.274,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "INTC": {
+        "fecha": "2026-08-20",
+        "precio": 92.18,
+        "precio_actual": 92.13,
+        "acciones": 5.4271,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "TER": {
+        "fecha": "2026-08-20",
+        "precio": 383.34,
+        "precio_actual": 383.15,
+        "acciones": 1.305,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "AMD": {
+        "fecha": "2026-08-20",
+        "precio": 469.69,
+        "precio_actual": 469.46,
+        "acciones": 1.0651,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      },
+      "DELL": {
+        "fecha": "2026-08-20",
+        "precio": 435.0,
+        "precio_actual": 434.78,
+        "acciones": 1.1214,
+        "stop": 0,
+        "pnl_pct": -0.05,
+        "dias": 0
+      }
     },
-    {
-      "d": "2026-08-18",
-      "v": 5001.45
-    },
-    {
-      "d": "2026-08-19",
-      "v": 4982.38
-    },
-    {
-      "d": "2026-08-20",
-      "v": 4966.92
-    }
-  ]
+    "cerradas": [],
+    "historico_equity": [
+      {
+        "d": "2026-08-20",
+        "v": 4992.6
+      }
+    ],
+    "ultimo_rebalanceo": "2026-08-20"
+  }
 }
