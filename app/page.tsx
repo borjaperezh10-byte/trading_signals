@@ -1,5 +1,5 @@
 import datos from "../public/data/results.json";
-import type { Resultados } from "../lib/tipos";
+import type { Resultados, Cartera } from "../lib/tipos";
 
 const r = datos as unknown as Resultados;
 
@@ -15,6 +15,14 @@ const clase = (n: number) => (n >= 0 ? "positivo" : "negativo");
 
 const fecha = (s: string) =>
   new Date(s).toLocaleDateString("es-ES", { day: "2-digit", month: "short" });
+
+const fechaLarga = (s: string) =>
+  new Date(s).toLocaleDateString("es-ES", {
+    day: "2-digit", month: "short", year: "2-digit" });
+
+const diasDesde = (s: string) =>
+  Math.max(0, Math.round(
+    (Date.now() - new Date(s).getTime()) / 86400000));
 
 /* ------------------------------------------------------------------ */
 /*  Curva de equity dibujada como SVG, sin librerías                   */
@@ -61,12 +69,103 @@ function Curva({ puntos, color }: { puntos: { d: string; v: number }[]; color: s
   );
 }
 
+
+/* ------------------------------------------------------------------ */
+/*  Bloque de cartera, reutilizable para las dos estrategias           */
+/* ------------------------------------------------------------------ */
+
+function BloqueCartera({ c, titulo, etiqueta, nota }:
+  { c: Cartera; titulo: string; etiqueta: string; nota: string }) {
+
+  return (
+    <div className="panel panel--activo">
+      <div className="panel-titulo">
+        <span>{titulo}</span>
+        <span className="etiqueta">{etiqueta}</span>
+      </div>
+
+      <div className={`panel-cifra ${clase(c.retorno_pct)}`}>
+        {signo(c.retorno_pct)}{c.retorno_pct}%
+      </div>
+      <p className="nota">
+        {eur(c.equity)} · liquidez {eur(c.cash)} · {c.posiciones.length} abiertas
+      </p>
+      <p className="nota" style={{ marginTop: 6 }}>{nota}</p>
+
+      {c.posiciones.length > 0 && (
+        <div className="desplazable" style={{ marginTop: 20 }}>
+          <table className="tabla">
+            <thead>
+              <tr>
+                <th>Valor</th><th>Entrada</th><th>Precio</th>
+                <th>Actual</th><th>Result.</th><th>Días</th>
+              </tr>
+            </thead>
+            <tbody>
+              {c.posiciones.map((p) => (
+                <tr key={p.ticker}>
+                  <td style={{ fontWeight: 600 }}>{p.ticker}</td>
+                  <td className="fecha-entrada">{fechaLarga(p.fecha)}</td>
+                  <td>{eur(p.precio)}</td>
+                  <td>{eur(p.precio_actual)}</td>
+                  <td className={clase(p.pnl_pct)}>
+                    {signo(p.pnl_pct)}{p.pnl_pct}%
+                  </td>
+                  <td>{diasDesde(p.fecha)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {c.curva.length >= 2 && (
+        <div style={{ marginTop: 20 }}>
+          <Curva puntos={c.curva}
+                 color={c.retorno_pct >= 0 ? "#5fd3a6" : "#e8705f"} />
+        </div>
+      )}
+
+      {c.cerradas.length > 0 && (
+        <div style={{ marginTop: 24 }}>
+          <span className="epigrafe">Cerradas recientemente</span>
+          <div className="desplazable" style={{ marginTop: 10 }}>
+            <table className="tabla">
+              <thead>
+                <tr>
+                  <th>Valor</th><th>Entrada</th><th>Salida</th>
+                  <th>Result.</th><th>Días</th><th>Motivo</th>
+                </tr>
+              </thead>
+              <tbody>
+                {c.cerradas.slice(0, 8).map((x, i) => (
+                  <tr key={`${x.ticker}-${i}`}>
+                    <td style={{ fontWeight: 600 }}>{x.ticker}</td>
+                    <td className="fecha-entrada">{fechaLarga(x.entrada_fecha)}</td>
+                    <td className="fecha-entrada">{fechaLarga(x.salida_fecha)}</td>
+                    <td className={clase(x.pnl_pct)}>
+                      {signo(x.pnl_pct)}{x.pnl_pct}%
+                    </td>
+                    <td>{x.dias}</td>
+                    <td style={{ color: "var(--apagado)" }}>{x.motivo}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ------------------------------------------------------------------ */
 /*  Página                                                             */
 /* ------------------------------------------------------------------ */
 
 export default function Pagina() {
   const { regimen, senales, cartera, metricas } = r;
+  const momentum = r.cartera_momentum;
 
   return (
     <main className="envoltura">
@@ -169,96 +268,68 @@ export default function Pagina() {
         )}
       </section>
 
-      {/* ---------- Cartera fantasma ---------- */}
+      {/* ---------- Carteras fantasma ---------- */}
       <section className="seccion">
         <div className="seccion-cabecera">
           <span className="epigrafe">Paso 2</span>
-          <h2 className="seccion-titulo">Cartera fantasma</h2>
+          <h2 className="seccion-titulo">Carteras fantasma</h2>
           <p className="nota">
-            Dinero ficticio, precios reales. Ejecuta las mismas reglas sin arriesgar nada.
+            Dos estrategias compitiendo con dinero ficticio y precios reales.
+            Ambas partieron de {eur(cartera.capital_inicial)}. Esto es lo único
+            que un backtest no puede darte: resultados sobre datos que no existían
+            cuando se diseñaron las reglas.
           </p>
         </div>
 
-        <div className="rejilla">
-          <div className="celda">
-            <span className="campo-etiqueta">Capital</span>
-            <div className="celda-valor">{eur(cartera.equity)}</div>
-          </div>
-          <div className="celda">
-            <span className="campo-etiqueta">Resultado</span>
-            <div className={`celda-valor ${clase(cartera.retorno_pct)}`}>
-              {signo(cartera.retorno_pct)}{cartera.retorno_pct}%
-            </div>
-          </div>
-          <div className="celda">
-            <span className="campo-etiqueta">Liquidez</span>
-            <div className="celda-valor">{eur(cartera.cash)}</div>
-          </div>
-          <div className="celda">
-            <span className="campo-etiqueta">Abiertas</span>
-            <div className="celda-valor">{cartera.posiciones.length} / 5</div>
-          </div>
+        <div className="duo">
+          <BloqueCartera
+            c={cartera}
+            titulo="Pullback"
+            etiqueta="diaria"
+            nota="Compra retrocesos en tendencia alcista. El backtest no le encontró ventaja; sigue viva para comprobarlo en real."
+          />
+          {momentum && (
+            <BloqueCartera
+              c={momentum}
+              titulo="Momentum"
+              etiqueta="mensual"
+              nota={`Mantiene los valores más fuertes mientras lideren.${
+                momentum.ultimo_rebalanceo
+                  ? ` Último rebalanceo: ${fechaLarga(momentum.ultimo_rebalanceo)}.`
+                  : ""
+              }`}
+            />
+          )}
         </div>
 
-        {cartera.posiciones.length > 0 && (
-          <div className="desplazable" style={{ marginTop: 28 }}>
-            <table className="tabla">
-              <thead>
-                <tr>
-                  <th>Valor</th><th>Entrada</th><th>Actual</th>
-                  <th>Stop</th><th>Result.</th><th>Días</th>
-                </tr>
-              </thead>
-              <tbody>
-                {cartera.posiciones.map((p) => (
-                  <tr key={p.ticker}>
-                    <td style={{ fontWeight: 600 }}>{p.ticker}</td>
-                    <td>{eur(p.precio)}</td>
-                    <td>{eur(p.precio_actual)}</td>
-                    <td className="negativo">{eur(p.stop)}</td>
-                    <td className={clase(p.pnl_pct)}>{signo(p.pnl_pct)}{p.pnl_pct}%</td>
-                    <td>{p.dias}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+        {momentum && (
+          <p className="nota" style={{ marginTop: 18 }}>
+            Diferencia entre ambas:{" "}
+            <span className={`dato ${clase(momentum.retorno_pct - cartera.retorno_pct)}`}>
+              {signo(momentum.retorno_pct - cartera.retorno_pct)}
+              {(momentum.retorno_pct - cartera.retorno_pct).toFixed(2)} puntos
+            </span>{" "}
+            a favor de momentum. Con pocas semanas de historial este número no
+            significa nada: hacen falta meses para que sea informativo.
+          </p>
         )}
 
-        {cartera.curva.length >= 2 && (
+        {r.top_momentum && r.top_momentum.length > 0 && (
           <div style={{ marginTop: 28 }}>
-            <Curva puntos={cartera.curva}
-                   color={cartera.retorno_pct >= 0 ? "#5fd3a6" : "#e8705f"} />
-          </div>
-        )}
-
-        {cartera.cerradas.length > 0 && (
-          <div style={{ marginTop: 36 }}>
-            <span className="epigrafe">Últimas operaciones cerradas</span>
-            <div className="desplazable" style={{ marginTop: 12 }}>
-              <table className="tabla">
-                <thead>
-                  <tr>
-                    <th>Valor</th><th>Entrada</th><th>Salida</th>
-                    <th>Result.</th><th>Días</th><th>Motivo</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {cartera.cerradas.map((c, i) => (
-                    <tr key={`${c.ticker}-${i}`}>
-                      <td style={{ fontWeight: 600 }}>{c.ticker}</td>
-                      <td>{fecha(c.entrada_fecha)}</td>
-                      <td>{fecha(c.salida_fecha)}</td>
-                      <td className={clase(c.pnl_pct)}>
-                        {signo(c.pnl_pct)}{c.pnl_pct}%
-                      </td>
-                      <td>{c.dias}</td>
-                      <td style={{ color: "var(--apagado)" }}>{c.motivo}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <span className="epigrafe">Ranking de fuerza actual</span>
+            <p className="nota" style={{ marginTop: 8 }}>
+              Los valores más fuertes hoy por rentabilidad de 12 meses menos el
+              último. La cartera de momentum se ajustará a esta lista en el
+              próximo rebalanceo, no antes.
+            </p>
+            <p className="dato" style={{ marginTop: 10, lineHeight: 2 }}>
+              {r.top_momentum.map((t, i) => (
+                <span key={t}>
+                  <span style={{ color: "var(--apagado)" }}>{i + 1}.</span> {t}
+                  {i < r.top_momentum!.length - 1 ? "   " : ""}
+                </span>
+              ))}
+            </p>
           </div>
         )}
       </section>
