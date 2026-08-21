@@ -1,0 +1,404 @@
+{
+  "spy_disenyo": [
+    0.14847344046012578,
+    -0.33717275860137663
+  ],
+  "spy_validacion": [
+    0.12103159672410557,
+    -0.24496375155808991
+  ],
+  "resultados": [
+    {
+      "nombre": "6m|n5|c1.5|inv_|sinreg",
+      "disenyo": {
+        "ops": 174.0,
+        "final": 46041.3475,
+        "cagr": 0.3735,
+        "dd": -0.3446,
+        "pf": 2.6803,
+        "win": 0.5917,
+        "sharpe": 1.142,
+        "dias": 73.5266,
+        "rot": 24.8742
+      },
+      "validacion": {
+        "ops": 98.0,
+        "final": 69916.2599,
+        "cagr": 0.7696,
+        "dd": -0.9761,
+        "pf": 5.4732,
+        "win": 0.6129,
+        "sharpe": 0.4981,
+        "dias": 83.5054,
+        "rot": 21.2053
+      },
+      "config": {
+        "capital_inicial": 5000.0,
+        "lookback": 126,
+        "gap": 21,
+        "momentum_absoluto": true,
+        "n_cartera": 5,
+        "colchon": 1.5,
+        "ponderacion": "inv_vol",
+        "dias_rebalanceo": 21,
+        "take_profit": null,
+        "stop_catastrofe": null,
+        "usar_regimen": false,
+        "sma_tendencia": 200,
+        "precio_minimo": 10.0,
+        "volumen_dolar_min": 10000000,
+        "comision_pct": 0.001,
+        "slippage_pct": 0.0005
+      }
+    },
+    {
+      "nombre": "6m|n10|c1.0|igua|sinreg",
+      "disenyo": {
+        "ops": 363.0,
+        "final": 36261.343,
+        "cagr": 0.3274,
+        "dd": -0.3114,
+        "pf": 2.133,
+        "win": 0.6006,
+        "sharpe": 1.1386,
+        "dias": 70.4929,
+        "rot": 51.8927
+      },
+      "validacion": {
+        "ops": 235.0,
+        "final": 35963.6915,
+        "cagr": 0.5326,
+        "dd": -0.9992,
+        "pf": 2.3306,
+        "win": 0.5867,
+        "sharpe": 0.467,
+        "dias": 68.6267,
+        "rot": 50.8494
+      },
+      "config": {
+        "capital_inicial": 5000.0,
+        "lookback": 126,
+        "gap": 21,
+        "momentum_absoluto": true,
+        "n_cartera": 10,
+        "colchon": 1.0,
+        "ponderacion": "igual",
+        "dias_rebalanceo": 21,
+        "take_profit": null,
+        "stop_catastrofe": null,
+        "usar_regimen": false,
+        "sma_tendencia": 200,
+        "precio_minimo": 10.0,
+        "volumen_dolar_min": 10000000,
+        "comision_pct": 0.001,
+        "slippage_pct": 0.0005
+      }
+    },
+    {
+      "nombre": "6m|n5|c1.5|inv_|reg",
+      "disenyo": {
+        "ops": 170.0,
+        "final": 34124.8,
+        "cagr": 0.3159,
+        "dd": -0.3364,
+        "pf": 2.4519,
+        "win": 0.5939,
+        "sharpe": 1.1151,
+        "dias": 65.9758,
+        "rot": 24.3023
+      },
+      "validacion": {
+        "ops": 88.0,
+        "final": 43611.6352,
+        "cagr": 0.5978,
+        "dd": -0.9761,
+        "pf": 4.706,
+        "win": 0.5783,
+        "sharpe": 0.4896,
+        "dias": 71.6386,
+        "rot": 19.0415
+      },
+      "config": {
+        "capital_inicial": 5000.0,
+        "lookback": 126,
+        "gap": 21,
+        "momentum_absoluto": true,
+        "n_cartera": 5,
+        "colchon": 1.5,
+        "ponderacion": "inv_vol",
+        "dias_rebalanceo": 21,
+        "take_profit": null,
+        "stop_catastrofe": null,
+        "usar_regimen": true,
+        "sma_tendencia": 200,
+        "precio_minimo": 10.0,
+        "volumen_dolar_min": 10000000,
+        "comision_pct": 0.001,
+        "slippage_pct": 0.0005
+      }
+    },
+    {
+      "nombre": "6m|n10|c1.0|inv_|sinreg",
+      "disenyo": {
+        "ops": 363.0,
+        "final": 31802.8839,
+        "cagr": 0.3028,
+        "dd": -0.3145,
+        "pf": 2.2373,
+        "win": 0.6006,
+        "sharpe": 1.1095,
+        "dias": 70.4929,
+        "rot": 51.8927
+      },
+      "validacion": {
+        "ops": 235.0,
+        "final": 22586.2358,
+        "cagr": 0.3858,
+        "dd": -0.999,
+        "pf": 2.106,
+        "win": 0.5867,
+        "sharpe": 0.4668,
+        "dias": 68.6267,
+        "rot": 50.8494
+      },
+      "config": {
+        "capital_inicial": 5000.0,
+        "lookback": 126,
+        "gap": 21,
+        "momentum_absoluto": true,
+        "n_cartera": 10,
+        "colchon": 1.0,
+        "ponderacion": "inv_vol",
+        "dias_rebalanceo": 21,
+        "take_profit": null,
+        "stop_catastrofe": null,
+        "usar_regimen": false,
+        "sma_tendencia": 200,
+        "precio_minimo": 10.0,
+        "volumen_dolar_min": 10000000,
+        "comision_pct": 0.001,
+        "slippage_pct": 0.0005
+      }
+    },
+    {
+      "nombre": "6m|n10|c1.5|igua|sinreg",
+      "disenyo": {
+        "ops": 282.0,
+        "final": 31262.2787,
+        "cagr": 0.2996,
+        "dd": -0.3152,
+        "pf": 2.1096,
+        "win": 0.5809,
+        "sharpe": 1.0467,
+        "dias": 90.7096,
+        "rot": 40.3133
+      },
+      "validacion": {
+        "ops": 185.0,
+        "final": 40258.7538,
+        "cagr": 0.5704,
+        "dd": -0.9992,
+        "pf": 2.0084,
+        "win": 0.5714,
+        "sharpe": 0.467,
+        "dias": 86.6686,
+        "rot": 40.0304
+      },
+      "config": {
+        "capital_inicial": 5000.0,
+        "lookback": 126,
+        "gap": 21,
+        "momentum_absoluto": true,
+        "n_cartera": 10,
+        "colchon": 1.5,
+        "ponderacion": "igual",
+        "dias_rebalanceo": 21,
+        "take_profit": null,
+        "stop_catastrofe": null,
+        "usar_regimen": false,
+        "sma_tendencia": 200,
+        "precio_minimo": 10.0,
+        "volumen_dolar_min": 10000000,
+        "comision_pct": 0.001,
+        "slippage_pct": 0.0005
+      }
+    }
+  ],
+  "take_profit": [
+    {
+      "variante": "sin take profit",
+      "disenyo": {
+        "ops": 174.0,
+        "final": 46041.3475,
+        "cagr": 0.3735,
+        "dd": -0.3446,
+        "pf": 2.6803,
+        "win": 0.5917,
+        "sharpe": 1.142,
+        "dias": 73.5266,
+        "rot": 24.8742
+      },
+      "validacion": {
+        "ops": 98.0,
+        "final": 69916.2599,
+        "cagr": 0.7696,
+        "dd": -0.9761,
+        "pf": 5.4732,
+        "win": 0.6129,
+        "sharpe": 0.4981,
+        "dias": 83.5054,
+        "rot": 21.2053
+      }
+    },
+    {
+      "variante": "TP +15%",
+      "disenyo": {
+        "ops": 244.0,
+        "final": 39443.307,
+        "cagr": 0.3435,
+        "dd": -0.3649,
+        "pf": 2.2766,
+        "win": 0.6333,
+        "sharpe": 1.1497,
+        "dias": 46.4083,
+        "rot": 34.881
+      },
+      "validacion": {
+        "ops": 169.0,
+        "final": 25772.8772,
+        "cagr": 0.426,
+        "dd": -0.9774,
+        "pf": 2.8108,
+        "win": 0.7012,
+        "sharpe": 0.4785,
+        "dias": 42.2744,
+        "rot": 36.5683
+      }
+    },
+    {
+      "variante": "TP +25%",
+      "disenyo": {
+        "ops": 214.0,
+        "final": 39934.3807,
+        "cagr": 0.3459,
+        "dd": -0.3117,
+        "pf": 2.2989,
+        "win": 0.6029,
+        "sharpe": 1.1322,
+        "dias": 55.8421,
+        "rot": 30.5924
+      },
+      "validacion": {
+        "ops": 151.0,
+        "final": 50392.3553,
+        "cagr": 0.6486,
+        "dd": -0.9984,
+        "pf": 4.4165,
+        "win": 0.6781,
+        "sharpe": 0.468,
+        "dias": 50.2671,
+        "rot": 32.6734
+      }
+    },
+    {
+      "variante": "TP +40%",
+      "disenyo": {
+        "ops": 196.0,
+        "final": 41982.6541,
+        "cagr": 0.3555,
+        "dd": -0.3446,
+        "pf": 2.3282,
+        "win": 0.5916,
+        "sharpe": 1.1269,
+        "dias": 63.0681,
+        "rot": 28.0192
+      },
+      "validacion": {
+        "ops": 131.0,
+        "final": 41096.0784,
+        "cagr": 0.5774,
+        "dd": -0.978,
+        "pf": 4.5885,
+        "win": 0.6508,
+        "sharpe": 0.4851,
+        "dias": 61.6349,
+        "rot": 28.3458
+      }
+    },
+    {
+      "variante": "stop -25%",
+      "disenyo": {
+        "ops": 178.0,
+        "final": 42818.554,
+        "cagr": 0.3593,
+        "dd": -0.3099,
+        "pf": 2.3085,
+        "win": 0.5838,
+        "sharpe": 1.1346,
+        "dias": 71.5607,
+        "rot": 25.446
+      },
+      "validacion": {
+        "ops": 107.0,
+        "final": 56144.8795,
+        "cagr": 0.6876,
+        "dd": -0.9987,
+        "pf": 3.1183,
+        "win": 0.5686,
+        "sharpe": 0.4679,
+        "dias": 75.8039,
+        "rot": 23.1527
+      }
+    },
+    {
+      "variante": "stop -35%",
+      "disenyo": {
+        "ops": 176.0,
+        "final": 41669.8967,
+        "cagr": 0.3541,
+        "dd": -0.3409,
+        "pf": 2.2598,
+        "win": 0.5848,
+        "sharpe": 1.1137,
+        "dias": 72.883,
+        "rot": 25.1601
+      },
+      "validacion": {
+        "ops": 100.0,
+        "final": 68902.3069,
+        "cagr": 0.7641,
+        "dd": -0.9761,
+        "pf": 5.8843,
+        "win": 0.6,
+        "sharpe": 0.4975,
+        "dias": 81.1368,
+        "rot": 21.638
+      }
+    },
+    {
+      "variante": "TP +40% y stop -25%",
+      "disenyo": {
+        "ops": 203.0,
+        "final": 36014.9022,
+        "cagr": 0.3261,
+        "dd": -0.3092,
+        "pf": 1.919,
+        "win": 0.5859,
+        "sharpe": 1.0905,
+        "dias": 60.2828,
+        "rot": 29.0199
+      },
+      "validacion": {
+        "ops": 147.0,
+        "final": 31132.8452,
+        "cagr": 0.4855,
+        "dd": -0.9986,
+        "pf": 2.5329,
+        "win": 0.5986,
+        "sharpe": 0.4674,
+        "dias": 53.9789,
+        "rot": 31.8079
+      }
+    }
+  ]
+}
