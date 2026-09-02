@@ -1,233 +1,233 @@
 {
-  "generado": "2026-09-01T23:27:54.621292+00:00",
-  "fecha_datos": "2026-09-01",
+  "generado": "2026-09-02T23:29:04.063115+00:00",
+  "fecha_datos": "2026-09-02",
   "es_demo": false,
   "regimen": {
     "alcista": true,
-    "spy": 761.78,
-    "sma200": 708.29,
-    "distancia_pct": 7.55
+    "spy": 765.16,
+    "sma200": 708.78,
+    "distancia_pct": 7.95
   },
   "senales": [
     {
-      "ticker": "DELL",
-      "precio_ref": 425.0,
-      "stop": 355.25,
-      "rsi": 23.6,
-      "atr": 27.9,
-      "roc": 194.1,
-      "sma200": 247.09,
-      "sma50": 433.96,
-      "vol_dolar_m": 2626.8,
+      "ticker": "MRVL",
+      "precio_ref": 206.48,
+      "stop": 166.32,
+      "rsi": 21.1,
+      "atr": 16.06,
+      "roc": 164.6,
+      "sma200": 150.4,
+      "sma50": 223.16,
+      "vol_dolar_m": 5486.8,
       "ranking": 1,
       "fundamental": {
         "sector": "Technology",
-        "per": 33.9,
-        "cap_b": 274.6,
-        "margen_pct": 6.3
+        "per": 68.1,
+        "cap_b": 185.6,
+        "margen_pct": 27.9
       },
-      "num_candidatos": 125,
-      "acciones": 0.72,
-      "importe": 306.0,
-      "riesgo_eur": 50.22
+      "num_candidatos": 73,
+      "acciones": 1.25,
+      "importe": 258.1,
+      "riesgo_eur": 50.2
     },
     {
-      "ticker": "MRVL",
-      "precio_ref": 210.39,
-      "stop": 168.47,
-      "rsi": 24.4,
-      "atr": 16.77,
-      "roc": 171.6,
-      "sma200": 149.8,
-      "sma50": 224.61,
-      "vol_dolar_m": 5497.6,
+      "ticker": "AMD",
+      "precio_ref": 457.06,
+      "stop": 400.2,
+      "rsi": 29.4,
+      "atr": 22.74,
+      "roc": 126.2,
+      "sma200": 338.77,
+      "sma50": 501.65,
+      "vol_dolar_m": 8788.9,
       "ranking": 2,
       "fundamental": {
         "sector": "Technology",
-        "per": 69.4,
-        "cap_b": 189.1,
-        "margen_pct": 27.9
+        "per": 116.9,
+        "cap_b": 746.1,
+        "margen_pct": 15.6
       },
-      "num_candidatos": 125,
-      "acciones": 1.2,
-      "importe": 252.47,
-      "riesgo_eur": 50.31
-    },
-    {
-      "ticker": "HPE",
-      "precio_ref": 50.87,
-      "stop": 44.2,
-      "rsi": 22.4,
-      "atr": 2.67,
-      "roc": 137.3,
-      "sma200": 32.67,
-      "sma50": 49.73,
-      "vol_dolar_m": 853.5,
-      "ranking": 3,
-      "fundamental": {
-        "sector": "Technology",
-        "per": 47.5,
-        "cap_b": 67.4,
-        "margen_pct": 4.0
-      },
-      "num_candidatos": 125,
-      "acciones": 7.51,
-      "importe": 382.03,
-      "riesgo_eur": 50.12
-    },
-    {
-      "ticker": "ARM",
-      "precio_ref": 234.82,
-      "stop": 188.9,
-      "rsi": 26.8,
-      "atr": 18.37,
-      "roc": 88.8,
-      "sma200": 199.77,
-      "sma50": 283.82,
-      "vol_dolar_m": 1064.9,
-      "ranking": 4,
-      "fundamental": {
-        "sector": "Technology",
-        "per": 239.6,
-        "cap_b": 250.8,
-        "margen_pct": 20.2
-      },
-      "num_candidatos": 125,
-      "acciones": 1.09,
-      "importe": 255.95,
-      "riesgo_eur": 50.05
-    },
-    {
-      "ticker": "NTAP",
-      "precio_ref": 183.16,
-      "stop": 165.27,
-      "rsi": 24.1,
-      "atr": 7.16,
-      "roc": 84.4,
-      "sma200": 128.48,
-      "sma50": 176.32,
-      "vol_dolar_m": 478.7,
-      "ranking": 5,
-      "fundamental": {
-        "sector": "Technology",
-        "per": 28.8,
-        "cap_b": 35.9,
-        "margen_pct": 18.4
-      },
-      "num_candidatos": 125,
-      "acciones": 2.8,
-      "importe": 512.85,
-      "riesgo_eur": 50.1
-    },
-    {
-      "ticker": "CRL",
-      "precio_ref": 282.34,
-      "stop": 256.95,
-      "rsi": 23.6,
-      "atr": 10.16,
-      "roc": 58.1,
-      "sma200": 197.68,
-      "sma50": 246.98,
-      "vol_dolar_m": 281.7,
-      "ranking": 6,
-      "fundamental": {
-        "sector": "Healthcare",
-        "per": null,
-        "cap_b": 13.6,
-        "margen_pct": -6.0
-      },
-      "num_candidatos": 125,
-      "acciones": 1.97,
-      "importe": 556.21,
-      "riesgo_eur": 50.02
-    },
-    {
-      "ticker": "ZBRA",
-      "precio_ref": 343.7,
-      "stop": 313.84,
-      "rsi": 15.1,
-      "atr": 11.94,
-      "roc": 53.5,
-      "sma200": 254.96,
-      "sma50": 305.78,
-      "vol_dolar_m": 282.2,
-      "ranking": 7,
-      "fundamental": {
-        "sector": "Technology",
-        "per": 31.5,
-        "cap_b": 16.3,
-        "margen_pct": 9.2
-      },
-      "num_candidatos": 125,
-      "acciones": 1.68,
-      "importe": 577.42,
-      "riesgo_eur": 50.16
-    },
-    {
-      "ticker": "EXPE",
-      "precio_ref": 304.23,
-      "stop": 273.53,
-      "rsi": 17.7,
-      "atr": 12.28,
-      "roc": 43.5,
-      "sma200": 256.81,
-      "sma50": 289.49,
-      "vol_dolar_m": 505.0,
-      "ranking": 8,
-      "fundamental": {
-        "sector": "Consumer Cyclical",
-        "per": 19.1,
-        "cap_b": 36.5,
-        "margen_pct": 13.0
-      },
-      "num_candidatos": 125,
-      "acciones": 1.63,
-      "importe": 495.89,
+      "num_candidatos": 73,
+      "acciones": 0.88,
+      "importe": 402.21,
       "riesgo_eur": 50.04
     },
     {
-      "ticker": "CSCO",
-      "precio_ref": 109.74,
-      "stop": 101.94,
-      "rsi": 29.1,
-      "atr": 3.12,
-      "roc": 39.4,
-      "sma200": 93.57,
-      "sma50": 115.09,
-      "vol_dolar_m": 2394.2,
+      "ticker": "STX",
+      "precio_ref": 808.54,
+      "stop": 667.03,
+      "rsi": 28.4,
+      "atr": 56.61,
+      "roc": 116.1,
+      "sma200": 587.15,
+      "sma50": 860.94,
+      "vol_dolar_m": 3374.1,
+      "ranking": 3,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 58.3,
+        "cap_b": 183.3,
+        "margen_pct": 26.1
+      },
+      "num_candidatos": 73,
+      "acciones": 0.35,
+      "importe": 282.99,
+      "riesgo_eur": 49.53
+    },
+    {
+      "ticker": "PANW",
+      "precio_ref": 328.48,
+      "stop": 278.41,
+      "rsi": 26.4,
+      "atr": 20.03,
+      "roc": 107.2,
+      "sma200": 231.78,
+      "sma50": 347.57,
+      "vol_dolar_m": 2211.5,
+      "ranking": 4,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 283.2,
+        "cap_b": 267.7,
+        "margen_pct": 7.9
+      },
+      "num_candidatos": 73,
+      "acciones": 1.0,
+      "importe": 328.48,
+      "riesgo_eur": 50.07
+    },
+    {
+      "ticker": "ARM",
+      "precio_ref": 234.86,
+      "stop": 193.07,
+      "rsi": 29.3,
+      "atr": 16.71,
+      "roc": 89.2,
+      "sma200": 200.7,
+      "sma50": 277.82,
+      "vol_dolar_m": 940.1,
+      "ranking": 5,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 237.2,
+        "cap_b": 250.8,
+        "margen_pct": 20.2
+      },
+      "num_candidatos": 73,
+      "acciones": 1.2,
+      "importe": 281.83,
+      "riesgo_eur": 50.14
+    },
+    {
+      "ticker": "NTAP",
+      "precio_ref": 180.77,
+      "stop": 162.78,
+      "rsi": 17.5,
+      "atr": 7.2,
+      "roc": 83.1,
+      "sma200": 129.22,
+      "sma50": 177.38,
+      "vol_dolar_m": 461.3,
+      "ranking": 6,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 28.4,
+        "cap_b": 35.5,
+        "margen_pct": 18.4
+      },
+      "num_candidatos": 73,
+      "acciones": 2.79,
+      "importe": 504.35,
+      "riesgo_eur": 50.2
+    },
+    {
+      "ticker": "DDOG",
+      "precio_ref": 209.23,
+      "stop": 173.8,
+      "rsi": 18.4,
+      "atr": 14.17,
+      "roc": 76.8,
+      "sma200": 176.06,
+      "sma50": 249.55,
+      "vol_dolar_m": 1180.2,
+      "ranking": 7,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 427.0,
+        "cap_b": 75.1,
+        "margen_pct": 4.5
+      },
+      "num_candidatos": 73,
+      "acciones": 1.42,
+      "importe": 297.11,
+      "riesgo_eur": 50.31
+    },
+    {
+      "ticker": "FLEX",
+      "precio_ref": 105.95,
+      "stop": 91.12,
+      "rsi": 25.9,
+      "atr": 5.93,
+      "roc": 65.7,
+      "sma200": 94.35,
+      "sma50": 124.93,
+      "vol_dolar_m": 328.8,
+      "ranking": 8,
+      "fundamental": {
+        "sector": "Technology",
+        "per": 40.9,
+        "cap_b": 39.1,
+        "margen_pct": 3.3
+      },
+      "num_candidatos": 73,
+      "acciones": 3.38,
+      "importe": 358.11,
+      "riesgo_eur": 50.13
+    },
+    {
+      "ticker": "MDB",
+      "precio_ref": 375.4,
+      "stop": 313.87,
+      "rsi": 20.5,
+      "atr": 24.61,
+      "roc": 51.4,
+      "sma200": 342.14,
+      "sma50": 370.31,
+      "vol_dolar_m": 784.2,
       "ranking": 9,
       "fundamental": {
         "sector": "Technology",
-        "per": 33.0,
-        "cap_b": 432.5,
-        "margen_pct": 21.0
+        "per": 544.1,
+        "cap_b": 30.2,
+        "margen_pct": -1.1
       },
-      "num_candidatos": 125,
-      "acciones": 6.43,
-      "importe": 705.63,
-      "riesgo_eur": 50.12
+      "num_candidatos": 73,
+      "acciones": 0.82,
+      "importe": 307.83,
+      "riesgo_eur": 50.46
     },
     {
-      "ticker": "WST",
-      "precio_ref": 338.65,
-      "stop": 318.82,
-      "rsi": 13.9,
-      "atr": 7.93,
-      "roc": 35.0,
-      "sma200": 291.9,
-      "sma50": 349.8,
-      "vol_dolar_m": 164.3,
+      "ticker": "ANET",
+      "precio_ref": 186.1,
+      "stop": 165.51,
+      "rsi": 26.1,
+      "atr": 8.23,
+      "roc": 38.0,
+      "sma200": 151.31,
+      "sma50": 181.77,
+      "vol_dolar_m": 1179.0,
       "ranking": 10,
       "fundamental": {
-        "sector": "Healthcare",
-        "per": 43.4,
-        "cap_b": 23.8,
-        "margen_pct": 17.0
+        "sector": "Technology",
+        "per": 58.9,
+        "cap_b": 234.7,
+        "margen_pct": 38.4
       },
-      "num_candidatos": 125,
-      "acciones": 2.53,
-      "importe": 856.78,
-      "riesgo_eur": 50.17
+      "num_candidatos": 73,
+      "acciones": 2.44,
+      "importe": 454.08,
+      "riesgo_eur": 50.23
     }
   ],
   "parametros_pullback": {
@@ -239,63 +239,65 @@
     "max_dias_posicion": 15
   },
   "cartera": {
-    "equity": 5009.89,
-    "cash": 2695.45,
+    "equity": 5018.21,
+    "cash": 2961.12,
     "capital_inicial": 5000.0,
-    "retorno_pct": 0.2,
+    "retorno_pct": 0.36,
     "posiciones": [
       {
         "ticker": "HPE",
         "fecha": "2026-08-20",
         "precio": 52.92,
-        "precio_actual": 50.87,
+        "precio_actual": 51.83,
         "acciones": 6.563,
         "stop": 45.27,
-        "pnl_pct": -3.87,
-        "dias": 8
-      },
-      {
-        "ticker": "INTC",
-        "fecha": "2026-08-20",
-        "precio": 92.18,
-        "precio_actual": 88.97,
-        "acciones": 2.9547,
-        "stop": 75.21,
-        "pnl_pct": -3.48,
-        "dias": 8
+        "pnl_pct": -2.06,
+        "dias": 9
       },
       {
         "ticker": "WST",
         "fecha": "2026-08-27",
         "precio": 346.26,
-        "precio_actual": 338.65,
+        "precio_actual": 342.63,
         "acciones": 2.5406,
         "stop": 326.13,
-        "pnl_pct": -2.2,
-        "dias": 3
+        "pnl_pct": -1.05,
+        "dias": 4
       },
       {
         "ticker": "URI",
         "fecha": "2026-08-27",
         "precio": 1038.03,
-        "precio_actual": 990.15,
+        "precio_actual": 979.82,
         "acciones": 0.6256,
         "stop": 956.43,
-        "pnl_pct": -4.61,
-        "dias": 3
+        "pnl_pct": -5.61,
+        "dias": 4
       },
       {
         "ticker": "MRVL",
         "fecha": "2026-08-28",
         "precio": 216.73,
-        "precio_actual": 210.39,
+        "precio_actual": 206.48,
         "acciones": 1.1307,
         "stop": 171.96,
-        "pnl_pct": -2.93,
-        "dias": 2
+        "pnl_pct": -4.73,
+        "dias": 3
       }
     ],
     "cerradas": [
+      {
+        "ticker": "INTC",
+        "entrada_fecha": "2026-08-20",
+        "salida_fecha": "2026-09-02",
+        "entrada": 92.18,
+        "salida": 90.0,
+        "acciones": 2.9547,
+        "pnl": -6.43,
+        "pnl_pct": -2.36,
+        "dias": 13,
+        "motivo": "objetivo"
+      },
       {
         "ticker": "AMZN",
         "entrada_fecha": "2026-08-27",
@@ -381,114 +383,118 @@
       {
         "d": "2026-09-01",
         "v": 5009.89
+      },
+      {
+        "d": "2026-09-02",
+        "v": 5018.21
       }
     ],
     "ultimo_rebalanceo": null
   },
   "cartera_momentum": {
-    "equity": 4764.42,
+    "equity": 4854.41,
     "cash": 4.93,
     "capital_inicial": 5000.0,
-    "retorno_pct": -4.71,
+    "retorno_pct": -2.91,
     "posiciones": [
       {
         "ticker": "SNDK",
         "fecha": "2026-08-20",
         "precio": 1601.42,
-        "precio_actual": 1536.87,
+        "precio_actual": 1553.4,
         "acciones": 0.3124,
         "stop": 0,
-        "pnl_pct": -4.03,
+        "pnl_pct": -3.0,
         "dias": 0
       },
       {
         "ticker": "MU",
         "fecha": "2026-08-20",
         "precio": 974.82,
-        "precio_actual": 933.44,
+        "precio_actual": 956.08,
         "acciones": 0.5132,
         "stop": 0,
-        "pnl_pct": -4.24,
+        "pnl_pct": -1.92,
         "dias": 0
       },
       {
         "ticker": "WDC",
         "fecha": "2026-08-20",
         "precio": 469.28,
-        "precio_actual": 450.44,
+        "precio_actual": 448.9,
         "acciones": 1.066,
         "stop": 0,
-        "pnl_pct": -4.01,
+        "pnl_pct": -4.34,
         "dias": 0
       },
       {
         "ticker": "LITE",
         "fecha": "2026-08-20",
         "precio": 879.72,
-        "precio_actual": 868.95,
+        "precio_actual": 870.58,
         "acciones": 0.5686,
         "stop": 0,
-        "pnl_pct": -1.22,
+        "pnl_pct": -1.04,
         "dias": 0
       },
       {
         "ticker": "STX",
         "fecha": "2026-08-20",
         "precio": 850.67,
-        "precio_actual": 816.64,
+        "precio_actual": 808.54,
         "acciones": 0.5881,
         "stop": 0,
-        "pnl_pct": -4.0,
+        "pnl_pct": -4.95,
         "dias": 0
       },
       {
         "ticker": "CIEN",
         "fecha": "2026-08-20",
         "precio": 392.68,
-        "precio_actual": 360.33,
+        "precio_actual": 354.16,
         "acciones": 1.274,
         "stop": 0,
-        "pnl_pct": -8.24,
+        "pnl_pct": -9.81,
         "dias": 0
       },
       {
         "ticker": "INTC",
         "fecha": "2026-08-20",
         "precio": 92.18,
-        "precio_actual": 88.97,
+        "precio_actual": 90.05,
         "acciones": 5.4271,
         "stop": 0,
-        "pnl_pct": -3.48,
+        "pnl_pct": -2.31,
         "dias": 0
       },
       {
         "ticker": "TER",
         "fecha": "2026-08-20",
         "precio": 383.34,
-        "precio_actual": 335.46,
+        "precio_actual": 341.62,
         "acciones": 1.305,
         "stop": 0,
-        "pnl_pct": -12.49,
+        "pnl_pct": -10.88,
         "dias": 0
       },
       {
         "ticker": "AMD",
         "fecha": "2026-08-20",
         "precio": 469.69,
-        "precio_actual": 459.61,
+        "precio_actual": 457.06,
         "acciones": 1.0651,
         "stop": 0,
-        "pnl_pct": -2.15,
+        "pnl_pct": -2.69,
         "dias": 0
       },
       {
         "ticker": "DELL",
         "fecha": "2026-08-20",
         "precio": 435.0,
-        "precio_actual": 425.0,
+        "precio_actual": 492.2,
         "acciones": 1.1214,
         "stop": 0,
-        "pnl_pct": -2.3,
+        "pnl_pct": 13.15,
         "dias": 0
       }
     ],
@@ -529,6 +535,10 @@
       {
         "d": "2026-09-01",
         "v": 4764.42
+      },
+      {
+        "d": "2026-09-02",
+        "v": 4854.41
       }
     ],
     "ultimo_rebalanceo": "2026-08-20"
