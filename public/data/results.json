@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-04T23:09:28.321772+00:00",
+  "generado": "2026-09-07T23:39:13.494483+00:00",
   "fecha_datos": "2026-09-04",
   "es_demo": false,
   "regimen": {
@@ -26,7 +26,7 @@
         "cap_b": 76.5,
         "margen_pct": 4.5
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 1.53,
       "importe": 325.78,
       "riesgo_eur": 50.77
@@ -40,15 +40,15 @@
       "roc": 36.3,
       "sma200": 342.45,
       "sma50": 373.45,
-      "vol_dolar_m": 810.9,
+      "vol_dolar_m": 811.1,
       "ranking": 2,
       "fundamental": {
         "sector": "Technology",
-        "per": 534.4,
+        "per": 526.8,
         "cap_b": 29.7,
         "margen_pct": 2.1
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 0.86,
       "importe": 317.12,
       "riesgo_eur": 50.79
@@ -62,7 +62,7 @@
       "roc": 29.1,
       "sma200": 70.9,
       "sma50": 81.22,
-      "vol_dolar_m": 365.8,
+      "vol_dolar_m": 366.2,
       "ranking": 3,
       "fundamental": {
         "sector": "Healthcare",
@@ -70,7 +70,7 @@
         "cap_b": 33.2,
         "margen_pct": 20.1
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 8.17,
       "importe": 718.14,
       "riesgo_eur": 50.8
@@ -84,7 +84,7 @@
       "roc": 25.7,
       "sma200": 128.53,
       "sma50": 131.96,
-      "vol_dolar_m": 508.9,
+      "vol_dolar_m": 509.8,
       "ranking": 4,
       "fundamental": {
         "sector": "Financial Services",
@@ -92,7 +92,7 @@
         "cap_b": 162.7,
         "margen_pct": 22.7
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 4.83,
       "importe": 657.6,
       "riesgo_eur": 50.82
@@ -106,7 +106,7 @@
       "roc": 24.7,
       "sma200": 234.91,
       "sma50": 262.0,
-      "vol_dolar_m": 566.2,
+      "vol_dolar_m": 567.0,
       "ranking": 5,
       "fundamental": {
         "sector": "Technology",
@@ -114,7 +114,7 @@
         "cap_b": 110.3,
         "margen_pct": 20.1
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 3.32,
       "importe": 921.7,
       "riesgo_eur": 50.77
@@ -136,7 +136,7 @@
         "cap_b": 43.3,
         "margen_pct": 26.6
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 6.66,
       "importe": 810.59,
       "riesgo_eur": 50.85
@@ -150,7 +150,7 @@
       "roc": 23.3,
       "sma200": 18.2,
       "sma50": 21.44,
-      "vol_dolar_m": 90.0,
+      "vol_dolar_m": 90.1,
       "ranking": 7,
       "fundamental": {
         "sector": "Real Estate",
@@ -158,7 +158,7 @@
         "cap_b": 14.6,
         "margen_pct": 8.2
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 47.45,
       "importe": 979.84,
       "riesgo_eur": 50.82
@@ -172,7 +172,7 @@
       "roc": 22.8,
       "sma200": 29.82,
       "sma50": 32.25,
-      "vol_dolar_m": 38.0,
+      "vol_dolar_m": 38.1,
       "ranking": 8,
       "fundamental": {
         "sector": "Communication Services",
@@ -180,10 +180,10 @@
         "cap_b": 18.2,
         "margen_pct": 6.3
       },
-      "num_candidatos": 52,
-      "acciones": 24.84,
-      "importe": 842.08,
-      "riesgo_eur": 50.82
+      "num_candidatos": 49,
+      "acciones": 24.83,
+      "importe": 841.74,
+      "riesgo_eur": 50.83
     },
     {
       "ticker": "LH",
@@ -202,7 +202,7 @@
         "cap_b": 26.5,
         "margen_pct": 7.0
       },
-      "num_candidatos": 52,
+      "num_candidatos": 49,
       "acciones": 2.78,
       "importe": 908.75,
       "riesgo_eur": 50.75
@@ -210,13 +210,13 @@
     {
       "ticker": "EXPE",
       "precio_ref": 298.04,
-      "stop": 268.08,
+      "stop": 268.06,
       "rsi": 22.7,
-      "atr": 11.98,
+      "atr": 11.99,
       "roc": 19.8,
       "sma200": 257.79,
       "sma50": 294.37,
-      "vol_dolar_m": 452.8,
+      "vol_dolar_m": 453.0,
       "ranking": 10,
       "fundamental": {
         "sector": "Consumer Cyclical",
@@ -224,10 +224,10 @@
         "cap_b": 35.8,
         "margen_pct": 13.0
       },
-      "num_candidatos": 52,
-      "acciones": 1.7,
-      "importe": 506.67,
-      "riesgo_eur": 50.93
+      "num_candidatos": 49,
+      "acciones": 1.69,
+      "importe": 503.69,
+      "riesgo_eur": 50.67
     }
   ],
   "parametros_pullback": {
@@ -252,7 +252,7 @@
         "acciones": 2.5406,
         "stop": 326.13,
         "pnl_pct": -1.82,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "URI",
@@ -262,7 +262,7 @@
         "acciones": 0.6256,
         "stop": 956.43,
         "pnl_pct": -2.71,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "DDOG",
@@ -272,7 +272,7 @@
         "acciones": 1.532,
         "stop": 179.75,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       },
       {
         "ticker": "MDB",
@@ -282,7 +282,7 @@
         "acciones": 0.8608,
         "stop": 309.68,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       },
       {
         "ticker": "DXCM",
@@ -292,7 +292,7 @@
         "acciones": 8.1767,
         "stop": 81.68,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       }
     ],
     "cerradas": [
@@ -437,6 +437,10 @@
       {
         "d": "2026-09-03",
         "v": 5045.9
+      },
+      {
+        "d": "2026-09-04",
+        "v": 5081.66
       },
       {
         "d": "2026-09-04",
@@ -597,6 +601,10 @@
       {
         "d": "2026-09-03",
         "v": 4813.37
+      },
+      {
+        "d": "2026-09-04",
+        "v": 5060.3
       },
       {
         "d": "2026-09-04",
