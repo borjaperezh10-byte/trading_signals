@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-13T02:40:02.167612+00:00",
+  "generado": "2026-10-14T00:28:36.307764+00:00",
   "fecha_datos": "2026-10-12",
   "es_demo": false,
   "regimen": {
@@ -18,12 +18,12 @@
       "roc": 140.7,
       "sma200": 387.22,
       "sma50": 531.28,
-      "vol_dolar_m": 13043.2,
+      "vol_dolar_m": 13044.8,
       "ranking": 1,
       "fundamental": {
         "sector": "Technology",
-        "per": 151.6,
-        "cap_b": 970.1,
+        "per": 154.5,
+        "cap_b": 988.5,
         "margen_pct": 15.6
       },
       "num_candidatos": 27,
@@ -40,12 +40,12 @@
       "roc": 131.9,
       "sma200": 705.13,
       "sma50": 979.51,
-      "vol_dolar_m": 26727.2,
+      "vol_dolar_m": 26740.7,
       "ranking": 2,
       "fundamental": {
         "sector": "Technology",
-        "per": 13.3,
-        "cap_b": 1119.0,
+        "per": 12.8,
+        "cap_b": 1078.5,
         "margen_pct": 63.8
       },
       "num_candidatos": 27,
@@ -62,12 +62,12 @@
       "roc": 62.0,
       "sma200": 220.83,
       "sma50": 270.18,
-      "vol_dolar_m": 1710.7,
+      "vol_dolar_m": 1710.9,
       "ranking": 3,
       "fundamental": {
         "sector": "Technology",
-        "per": 263.1,
-        "cap_b": 272.6,
+        "per": 263.3,
+        "cap_b": 272.8,
         "margen_pct": 20.2
       },
       "num_candidatos": 27,
@@ -88,8 +88,8 @@
       "ranking": 4,
       "fundamental": {
         "sector": "Technology",
-        "per": 11.4,
-        "cap_b": 26.9,
+        "per": 11.7,
+        "cap_b": 27.6,
         "margen_pct": 4.1
       },
       "num_candidatos": 27,
@@ -106,12 +106,12 @@
       "roc": 56.2,
       "sma200": 1187.74,
       "sma50": 1587.95,
-      "vol_dolar_m": 14442.6,
+      "vol_dolar_m": 14451.3,
       "ranking": 5,
       "fundamental": {
         "sector": "Technology",
-        "per": 20.2,
-        "cap_b": 215.0,
+        "per": 20.1,
+        "cap_b": 214.2,
         "margen_pct": 56.5
       },
       "num_candidatos": 27,
@@ -128,12 +128,12 @@
       "roc": 55.5,
       "sma200": 83.36,
       "sma50": 103.3,
-      "vol_dolar_m": 12359.6,
+      "vol_dolar_m": 12361.9,
       "ranking": 6,
       "fundamental": {
         "sector": "Technology",
         "per": null,
-        "cap_b": 535.7,
+        "cap_b": 543.5,
         "margen_pct": -19.8
       },
       "num_candidatos": 27,
@@ -150,12 +150,12 @@
       "roc": 53.9,
       "sma200": 32.37,
       "sma50": 38.24,
-      "vol_dolar_m": 1473.6,
+      "vol_dolar_m": 1473.8,
       "ranking": 7,
       "fundamental": {
         "sector": "Technology",
-        "per": 12.3,
-        "cap_b": 26.3,
+        "per": 12.0,
+        "cap_b": 25.7,
         "margen_pct": 5.7
       },
       "num_candidatos": 27,
@@ -172,12 +172,12 @@
       "roc": 48.5,
       "sma200": 213.28,
       "sma50": 247.61,
-      "vol_dolar_m": 4520.8,
+      "vol_dolar_m": 4521.4,
       "ranking": 8,
       "fundamental": {
         "sector": "Industrials",
-        "per": 345.1,
-        "cap_b": 77.2,
+        "per": 346.6,
+        "cap_b": 77.6,
         "margen_pct": 7.9
       },
       "num_candidatos": 27,
@@ -194,12 +194,12 @@
       "roc": 47.0,
       "sma200": 665.24,
       "sma50": 852.67,
-      "vol_dolar_m": 3977.2,
+      "vol_dolar_m": 3977.8,
       "ranking": 9,
       "fundamental": {
         "sector": "Technology",
-        "per": 54.2,
-        "cap_b": 171.3,
+        "per": 53.8,
+        "cap_b": 169.9,
         "margen_pct": 26.1
       },
       "num_candidatos": 27,
@@ -220,8 +220,8 @@
       "ranking": 10,
       "fundamental": {
         "sector": "Technology",
-        "per": 20.2,
-        "cap_b": 186.3,
+        "per": 20.5,
+        "cap_b": 188.9,
         "margen_pct": 21.0
       },
       "num_candidatos": 27,
@@ -252,7 +252,7 @@
         "acciones": 3.3475,
         "stop": 95.87,
         "pnl_pct": -1.79,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "SWKS",
@@ -262,7 +262,7 @@
         "acciones": 4.5851,
         "stop": 72.01,
         "pnl_pct": -10.22,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "TGT",
@@ -272,7 +272,7 @@
         "acciones": 5.37,
         "stop": 143.33,
         "pnl_pct": 0.36,
-        "dias": 5
+        "dias": 6
       },
       {
         "ticker": "SNDK",
@@ -282,7 +282,7 @@
         "acciones": 0.2131,
         "stop": 1365.38,
         "pnl_pct": -7.63,
-        "dias": 1
+        "dias": 2
       },
       {
         "ticker": "ARM",
@@ -292,7 +292,7 @@
         "acciones": 1.1712,
         "stop": 230.88,
         "pnl_pct": -7.33,
-        "dias": 1
+        "dias": 2
       }
     ],
     "cerradas": [
@@ -689,6 +689,10 @@
       {
         "d": "2026-10-12",
         "v": 5108.01
+      },
+      {
+        "d": "2026-10-12",
+        "v": 5108.01
       }
     ],
     "ultimo_rebalanceo": null
@@ -962,6 +966,10 @@
       {
         "d": "2026-10-08",
         "v": 5026.78
+      },
+      {
+        "d": "2026-10-12",
+        "v": 5300.74
       },
       {
         "d": "2026-10-12",
