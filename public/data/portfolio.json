@@ -6,47 +6,47 @@
       "HOOD": {
         "fecha": "2026-10-01",
         "precio": 111.21,
-        "precio_actual": 109.22,
+        "precio_actual": 110.52,
         "acciones": 3.3475,
         "stop": 95.87,
-        "pnl_pct": -1.79,
-        "dias": 7
+        "pnl_pct": -0.62,
+        "dias": 8
       },
       "SWKS": {
         "fecha": "2026-10-01",
         "precio": 83.2,
-        "precio_actual": 74.7,
+        "precio_actual": 76.56,
         "acciones": 4.5851,
         "stop": 72.01,
-        "pnl_pct": -10.22,
-        "dias": 7
+        "pnl_pct": -7.98,
+        "dias": 8
       },
       "TGT": {
         "fecha": "2026-10-05",
         "precio": 153.07,
-        "precio_actual": 153.62,
+        "precio_actual": 151.99,
         "acciones": 5.37,
         "stop": 143.33,
-        "pnl_pct": 0.36,
-        "dias": 6
+        "pnl_pct": -0.71,
+        "dias": 7
       },
       "SNDK": {
         "fecha": "2026-10-08",
         "precio": 1610.26,
-        "precio_actual": 1487.33,
+        "precio_actual": 1482.33,
         "acciones": 0.2131,
         "stop": 1365.38,
-        "pnl_pct": -7.63,
-        "dias": 2
+        "pnl_pct": -7.94,
+        "dias": 3
       },
       "ARM": {
         "fecha": "2026-10-08",
         "precio": 275.43,
-        "precio_actual": 255.24,
+        "precio_actual": 255.39,
         "acciones": 1.1712,
         "stop": 230.88,
-        "pnl_pct": -7.33,
-        "dias": 2
+        "pnl_pct": -7.28,
+        "dias": 3
       }
     },
     "cerradas": [
@@ -519,6 +519,10 @@
       {
         "d": "2026-10-12",
         "v": 5108.01
+      },
+      {
+        "d": "2026-10-13",
+        "v": 5111.24
       }
     ],
     "ultimo_rebalanceo": null
@@ -530,91 +534,91 @@
       "SNDK": {
         "fecha": "2026-08-20",
         "precio": 1601.42,
-        "precio_actual": 1487.33,
+        "precio_actual": 1482.33,
         "acciones": 0.3006,
         "stop": 0,
-        "pnl_pct": -7.12,
+        "pnl_pct": -7.44,
         "dias": 0
       },
       "MU": {
         "fecha": "2026-08-20",
         "precio": 975.82,
-        "precio_actual": 989.04,
+        "precio_actual": 953.19,
         "acciones": 0.5175,
         "stop": 0,
-        "pnl_pct": 1.35,
+        "pnl_pct": -2.32,
         "dias": 0
       },
       "WDC": {
         "fecha": "2026-08-20",
         "precio": 468.72,
-        "precio_actual": 386.94,
+        "precio_actual": 380.71,
         "acciones": 1.2209,
         "stop": 0,
-        "pnl_pct": -17.45,
+        "pnl_pct": -18.78,
         "dias": 0
       },
       "LITE": {
         "fecha": "2026-08-20",
         "precio": 883.18,
-        "precio_actual": 995.41,
+        "precio_actual": 987.99,
         "acciones": 0.5998,
         "stop": 0,
-        "pnl_pct": 12.71,
+        "pnl_pct": 11.87,
         "dias": 0
       },
       "STX": {
         "fecha": "2026-08-20",
         "precio": 853.89,
-        "precio_actual": 753.25,
+        "precio_actual": 747.2,
         "acciones": 0.6166,
         "stop": 0,
-        "pnl_pct": -11.79,
+        "pnl_pct": -12.49,
         "dias": 0
       },
       "INTC": {
         "fecha": "2026-08-20",
         "precio": 92.18,
-        "precio_actual": 101.35,
+        "precio_actual": 102.81,
         "acciones": 4.5795,
         "stop": 0,
-        "pnl_pct": 9.95,
+        "pnl_pct": 11.53,
         "dias": 0
       },
       "TER": {
         "fecha": "2026-08-20",
         "precio": 384.63,
-        "precio_actual": 383.85,
+        "precio_actual": 380.29,
         "acciones": 1.4227,
         "stop": 0,
-        "pnl_pct": -0.2,
+        "pnl_pct": -1.13,
         "dias": 0
       },
       "AMD": {
         "fecha": "2026-08-20",
         "precio": 469.69,
-        "precio_actual": 594.24,
+        "precio_actual": 605.53,
         "acciones": 0.9093,
         "stop": 0,
-        "pnl_pct": 26.52,
+        "pnl_pct": 28.92,
         "dias": 0
       },
       "DELL": {
         "fecha": "2026-08-20",
         "precio": 435.0,
-        "precio_actual": 576.76,
+        "precio_actual": 572.47,
         "acciones": 1.0333,
         "stop": 0,
-        "pnl_pct": 32.59,
+        "pnl_pct": 31.6,
         "dias": 0
       },
       "MRNA": {
         "fecha": "2026-09-22",
         "precio": 182.65,
-        "precio_actual": 213.74,
+        "precio_actual": 216.25,
         "acciones": 3.0677,
         "stop": 0,
-        "pnl_pct": 17.02,
+        "pnl_pct": 18.4,
         "dias": 0
       }
     },
@@ -788,6 +792,10 @@
       {
         "d": "2026-10-12",
         "v": 5300.74
+      },
+      {
+        "d": "2026-10-13",
+        "v": 5280.05
       }
     ],
     "ultimo_rebalanceo": "2026-09-22"
