@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T23:54:35.082518+00:00",
+  "generado": "2026-10-27T00:40:28.072464+00:00",
   "fecha_datos": "2026-10-23",
   "es_demo": false,
   "regimen": {
@@ -18,12 +18,12 @@
       "roc": 294.4,
       "sma200": 82.16,
       "sma50": 171.15,
-      "vol_dolar_m": 4162.8,
+      "vol_dolar_m": 4163.4,
       "ranking": 1,
       "fundamental": {
         "sector": "Healthcare",
         "per": null,
-        "cap_b": 79.9,
+        "cap_b": 79.4,
         "margen_pct": -141.4
       },
       "num_candidatos": 18,
@@ -40,12 +40,12 @@
       "roc": 105.3,
       "sma200": 282.78,
       "sma50": 409.24,
-      "vol_dolar_m": 885.0,
+      "vol_dolar_m": 885.1,
       "ranking": 2,
       "fundamental": {
         "sector": "Energy",
-        "per": 15.8,
-        "cap_b": 133.5,
+        "per": 16.3,
+        "cap_b": 137.4,
         "margen_pct": 5.5
       },
       "num_candidatos": 18,
@@ -66,8 +66,8 @@
       "ranking": 3,
       "fundamental": {
         "sector": "Energy",
-        "per": 9.5,
-        "cap_b": 120.7,
+        "per": 9.7,
+        "cap_b": 122.9,
         "margen_pct": 8.8
       },
       "num_candidatos": 18,
@@ -88,8 +88,8 @@
       "ranking": 4,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 30.9,
-        "cap_b": 29.4,
+        "per": 31.2,
+        "cap_b": 29.6,
         "margen_pct": 20.1
       },
       "num_candidatos": 18,
@@ -106,12 +106,12 @@
       "roc": 25.1,
       "sma200": 1236.33,
       "sma50": 1593.45,
-      "vol_dolar_m": 12175.3,
+      "vol_dolar_m": 12176.6,
       "ranking": 5,
       "fundamental": {
         "sector": "Technology",
-        "per": 16.8,
-        "cap_b": 178.9,
+        "per": 17.0,
+        "cap_b": 181.5,
         "margen_pct": 56.5
       },
       "num_candidatos": 18,
@@ -128,12 +128,12 @@
       "roc": 13.6,
       "sma200": 292.13,
       "sma50": 321.98,
-      "vol_dolar_m": 117.3,
+      "vol_dolar_m": 117.4,
       "ranking": 6,
       "fundamental": {
         "sector": "Industrials",
-        "per": 32.3,
-        "cap_b": 17.8,
+        "per": 32.6,
+        "cap_b": 17.9,
         "margen_pct": 18.6
       },
       "num_candidatos": 18,
@@ -150,12 +150,12 @@
       "roc": 12.2,
       "sma200": 93.25,
       "sma50": 108.87,
-      "vol_dolar_m": 1990.4,
+      "vol_dolar_m": 1990.5,
       "ranking": 7,
       "fundamental": {
         "sector": "Financial Services",
-        "per": 41.9,
-        "cap_b": 85.5,
+        "per": 40.9,
+        "cap_b": 83.5,
         "margen_pct": 42.0
       },
       "num_candidatos": 18,
@@ -166,7 +166,7 @@
     {
       "ticker": "VRSN",
       "precio_ref": 300.32,
-      "stop": 278.98,
+      "stop": 278.96,
       "rsi": 29.5,
       "atr": 8.54,
       "roc": 12.2,
@@ -176,14 +176,14 @@
       "ranking": 8,
       "fundamental": {
         "sector": "Technology",
-        "per": 32.6,
-        "cap_b": 26.9,
-        "margen_pct": 49.8
+        "per": 33.5,
+        "cap_b": 27.7,
+        "margen_pct": 49.1
       },
       "num_candidatos": 18,
       "acciones": 2.35,
       "importe": 705.75,
-      "riesgo_eur": 50.14
+      "riesgo_eur": 50.2
     },
     {
       "ticker": "COR",
@@ -198,8 +198,8 @@
       "ranking": 9,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 24.6,
-        "cap_b": 63.2,
+        "per": 24.5,
+        "cap_b": 63.0,
         "margen_pct": 0.8
       },
       "num_candidatos": 18,
@@ -216,7 +216,7 @@
       "roc": 7.3,
       "sma200": 64.75,
       "sma50": 71.75,
-      "vol_dolar_m": 789.6,
+      "vol_dolar_m": 789.7,
       "ranking": 10,
       "fundamental": {
         "sector": "Basic Materials",
@@ -252,7 +252,7 @@
         "acciones": 0.6197,
         "stop": 392.24,
         "pnl_pct": -3.63,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "HPE",
@@ -262,7 +262,7 @@
         "acciones": 5.0901,
         "stop": 48.75,
         "pnl_pct": -3.36,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "DXCM",
@@ -272,7 +272,7 @@
         "acciones": 7.6558,
         "stop": 73.69,
         "pnl_pct": -2.94,
-        "dias": 1
+        "dias": 2
       },
       {
         "ticker": "MRNA",
@@ -282,7 +282,7 @@
         "acciones": 0.9448,
         "stop": 146.94,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       },
       {
         "ticker": "MPC",
@@ -292,7 +292,7 @@
         "acciones": 1.2225,
         "stop": 416.13,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       }
     ],
     "cerradas": [
@@ -725,6 +725,10 @@
       {
         "d": "2026-10-23",
         "v": 5021.86
+      },
+      {
+        "d": "2026-10-23",
+        "v": 5021.86
       }
     ],
     "ultimo_rebalanceo": null
@@ -1086,22 +1090,15 @@
       {
         "d": "2026-10-23",
         "v": 4481.11
+      },
+      {
+        "d": "2026-10-23",
+        "v": 4481.11
       }
     ],
     "ultimo_rebalanceo": "2026-10-23"
   },
-  "top_momentum": [
-    "SNDK",
-    "MRNA",
-    "MU",
-    "INTC",
-    "DELL",
-    "AMD",
-    "MRVL",
-    "TWLO",
-    "ILMN",
-    "HPE"
-  ],
+  "top_momentum": [],
   "universo": 510,
   "metricas": {
     "Capital inicial": "5,000",
