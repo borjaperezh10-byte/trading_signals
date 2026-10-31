@@ -1,233 +1,233 @@
 {
-  "generado": "2026-10-30T01:14:02.810904+00:00",
-  "fecha_datos": "2026-10-28",
+  "generado": "2026-10-31T00:56:41.082849+00:00",
+  "fecha_datos": "2026-10-29",
   "es_demo": false,
   "regimen": {
     "alcista": true,
-    "spy": 772.31,
-    "sma200": 725.23,
-    "distancia_pct": 6.49
+    "spy": 769.36,
+    "sma200": 725.63,
+    "distancia_pct": 6.03
   },
   "senales": [
     {
-      "ticker": "HUM",
-      "precio_ref": 411.87,
-      "stop": 373.41,
-      "rsi": 29.1,
-      "atr": 15.38,
-      "roc": 69.8,
-      "sma200": 306.35,
-      "sma50": 399.56,
-      "vol_dolar_m": 680.3,
+      "ticker": "TEAM",
+      "precio_ref": 204.1,
+      "stop": 180.2,
+      "rsi": 19.7,
+      "atr": 9.56,
+      "roc": 197.6,
+      "sma200": 117.48,
+      "sma50": 194.89,
+      "vol_dolar_m": 499.6,
       "ranking": 1,
       "fundamental": {
-        "sector": "Healthcare",
-        "per": 39.5,
-        "cap_b": 50.1,
-        "margen_pct": 0.9
+        "sector": "Technology",
+        "per": null,
+        "cap_b": 48.5,
+        "margen_pct": -0.8
       },
-      "num_candidatos": 28,
-      "acciones": 1.32,
-      "importe": 543.67,
-      "riesgo_eur": 50.77
+      "num_candidatos": 15,
+      "acciones": 2.13,
+      "importe": 434.73,
+      "riesgo_eur": 50.91
     },
     {
-      "ticker": "VLO",
-      "precio_ref": 388.48,
-      "stop": 342.6,
-      "rsi": 17.0,
-      "atr": 18.35,
-      "roc": 55.9,
-      "sma200": 282.45,
-      "sma50": 395.68,
-      "vol_dolar_m": 1081.9,
+      "ticker": "MPC",
+      "precio_ref": 432.51,
+      "stop": 386.58,
+      "rsi": 25.2,
+      "atr": 18.37,
+      "roc": 75.3,
+      "sma200": 288.2,
+      "sma50": 416.08,
+      "vol_dolar_m": 925.2,
       "ranking": 2,
       "fundamental": {
         "sector": "Energy",
-        "per": 8.7,
-        "cap_b": 107.3,
-        "margen_pct": 8.8
+        "per": 15.4,
+        "cap_b": 129.8,
+        "margen_pct": 5.5
       },
-      "num_candidatos": 28,
-      "acciones": 1.1,
-      "importe": 427.33,
-      "riesgo_eur": 50.47
+      "num_candidatos": 15,
+      "acciones": 1.11,
+      "importe": 480.09,
+      "riesgo_eur": 50.99
     },
     {
-      "ticker": "DXCM",
-      "precio_ref": 78.62,
-      "stop": 72.47,
-      "rsi": 24.8,
-      "atr": 2.46,
-      "roc": 36.6,
-      "sma200": 74.45,
-      "sma50": 86.18,
-      "vol_dolar_m": 353.4,
+      "ticker": "FTNT",
+      "precio_ref": 139.1,
+      "stop": 114.17,
+      "rsi": 11.0,
+      "atr": 9.97,
+      "roc": 65.0,
+      "sma200": 128.09,
+      "sma50": 171.64,
+      "vol_dolar_m": 817.0,
       "ranking": 3,
       "fundamental": {
-        "sector": "Healthcare",
-        "per": 31.7,
-        "cap_b": 30.2,
-        "margen_pct": 20.1
+        "sector": "Technology",
+        "per": 44.5,
+        "cap_b": 99.8,
+        "margen_pct": 29.0
       },
-      "num_candidatos": 28,
-      "acciones": 8.24,
-      "importe": 647.83,
-      "riesgo_eur": 50.68
+      "num_candidatos": 15,
+      "acciones": 2.04,
+      "importe": 283.76,
+      "riesgo_eur": 50.86
     },
     {
-      "ticker": "ADP",
-      "precio_ref": 285.37,
-      "stop": 268.17,
-      "rsi": 28.9,
-      "atr": 6.88,
-      "roc": 34.6,
-      "sma200": 237.59,
-      "sma50": 276.22,
-      "vol_dolar_m": 555.1,
+      "ticker": "TWLO",
+      "precio_ref": 241.9,
+      "stop": 204.7,
+      "rsi": 22.2,
+      "atr": 14.88,
+      "roc": 63.4,
+      "sma200": 188.35,
+      "sma50": 256.92,
+      "vol_dolar_m": 1185.5,
       "ranking": 4,
       "fundamental": {
         "sector": "Technology",
-        "per": 25.4,
-        "cap_b": 113.2,
-        "margen_pct": 20.3
+        "per": 28.4,
+        "cap_b": 31.5,
+        "margen_pct": 20.6
       },
-      "num_candidatos": 28,
-      "acciones": 2.95,
-      "importe": 841.84,
-      "riesgo_eur": 50.73
+      "num_candidatos": 15,
+      "acciones": 1.37,
+      "importe": 331.4,
+      "riesgo_eur": 50.96
     },
     {
-      "ticker": "CPAY",
-      "precio_ref": 395.86,
-      "stop": 372.65,
-      "rsi": 28.8,
-      "atr": 9.28,
-      "roc": 29.0,
-      "sma200": 354.74,
-      "sma50": 403.68,
-      "vol_dolar_m": 184.6,
+      "ticker": "WDAY",
+      "precio_ref": 195.46,
+      "stop": 177.04,
+      "rsi": 23.5,
+      "atr": 7.37,
+      "roc": 59.7,
+      "sma200": 155.59,
+      "sma50": 194.06,
+      "vol_dolar_m": 428.1,
       "ranking": 5,
       "fundamental": {
         "sector": "Technology",
-        "per": 24.2,
-        "cap_b": 26.1,
-        "margen_pct": 22.7
+        "per": 40.3,
+        "cap_b": 47.7,
+        "margen_pct": 12.3
       },
-      "num_candidatos": 28,
-      "acciones": 2.18,
-      "importe": 862.97,
-      "riesgo_eur": 50.6
+      "num_candidatos": 15,
+      "acciones": 2.76,
+      "importe": 539.47,
+      "riesgo_eur": 50.83
     },
     {
-      "ticker": "CNC",
-      "precio_ref": 67.05,
-      "stop": 60.51,
-      "rsi": 28.9,
-      "atr": 2.62,
-      "roc": 24.2,
-      "sma200": 55.13,
-      "sma50": 65.94,
-      "vol_dolar_m": 316.6,
+      "ticker": "VLO",
+      "precio_ref": 384.57,
+      "stop": 339.19,
+      "rsi": 15.3,
+      "atr": 18.15,
+      "roc": 53.6,
+      "sma200": 283.47,
+      "sma50": 396.44,
+      "vol_dolar_m": 1091.8,
       "ranking": 6,
       "fundamental": {
-        "sector": "Healthcare",
-        "per": 23.6,
-        "cap_b": 34.0,
-        "margen_pct": 0.8
+        "sector": "Energy",
+        "per": 9.1,
+        "cap_b": 111.5,
+        "margen_pct": 8.8
       },
-      "num_candidatos": 28,
-      "acciones": 7.75,
-      "importe": 519.64,
-      "riesgo_eur": 50.67
+      "num_candidatos": 15,
+      "acciones": 1.12,
+      "importe": 430.72,
+      "riesgo_eur": 50.82
     },
     {
-      "ticker": "SOLV",
-      "precio_ref": 81.85,
-      "stop": 76.57,
-      "rsi": 17.4,
-      "atr": 2.11,
-      "roc": 23.1,
-      "sma200": 78.34,
-      "sma50": 88.33,
-      "vol_dolar_m": 92.4,
+      "ticker": "BAX",
+      "precio_ref": 23.5,
+      "stop": 21.27,
+      "rsi": 23.6,
+      "atr": 0.89,
+      "roc": 33.8,
+      "sma200": 21.31,
+      "sma50": 24.65,
+      "vol_dolar_m": 160.0,
       "ranking": 7,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 10.2,
-        "cap_b": 14.2,
-        "margen_pct": 17.3
+        "per": null,
+        "cap_b": 11.9,
+        "margen_pct": -6.2
       },
-      "num_candidatos": 28,
-      "acciones": 9.6,
-      "importe": 785.76,
-      "riesgo_eur": 50.65
+      "num_candidatos": 15,
+      "acciones": 22.75,
+      "importe": 534.62,
+      "riesgo_eur": 50.81
     },
     {
-      "ticker": "CAH",
-      "precio_ref": 244.76,
-      "stop": 231.37,
-      "rsi": 26.4,
-      "atr": 5.35,
-      "roc": 21.2,
-      "sma200": 220.89,
-      "sma50": 236.69,
-      "vol_dolar_m": 406.0,
+      "ticker": "CRM",
+      "precio_ref": 230.9,
+      "stop": 208.04,
+      "rsi": 19.6,
+      "atr": 9.14,
+      "roc": 31.4,
+      "sma200": 197.69,
+      "sma50": 238.27,
+      "vol_dolar_m": 1697.2,
       "ranking": 8,
       "fundamental": {
-        "sector": "Healthcare",
-        "per": 34.7,
-        "cap_b": 58.1,
-        "margen_pct": 0.7
+        "sector": "Technology",
+        "per": 21.0,
+        "cap_b": 188.6,
+        "margen_pct": 22.0
       },
-      "num_candidatos": 28,
-      "acciones": 3.79,
-      "importe": 927.64,
-      "riesgo_eur": 50.73
+      "num_candidatos": 15,
+      "acciones": 2.22,
+      "importe": 512.6,
+      "riesgo_eur": 50.74
     },
     {
-      "ticker": "GPC",
-      "precio_ref": 121.39,
-      "stop": 112.64,
-      "rsi": 25.9,
-      "atr": 3.5,
+      "ticker": "CTSH",
+      "precio_ref": 62.52,
+      "stop": 55.44,
+      "rsi": 21.6,
+      "atr": 2.83,
       "roc": 19.7,
-      "sma200": 118.51,
-      "sma50": 130.33,
-      "vol_dolar_m": 134.4,
+      "sma200": 58.58,
+      "sma50": 62.12,
+      "vol_dolar_m": 420.6,
       "ranking": 9,
       "fundamental": {
-        "sector": "Consumer Cyclical",
-        "per": 470.7,
-        "cap_b": 16.9,
-        "margen_pct": 0.1
+        "sector": "Technology",
+        "per": 14.0,
+        "cap_b": 29.1,
+        "margen_pct": 11.8
       },
-      "num_candidatos": 28,
-      "acciones": 5.79,
-      "importe": 702.85,
-      "riesgo_eur": 50.67
+      "num_candidatos": 15,
+      "acciones": 7.18,
+      "importe": 448.89,
+      "riesgo_eur": 50.83
     },
     {
-      "ticker": "PAYX",
-      "precio_ref": 108.21,
-      "stop": 100.5,
-      "rsi": 28.9,
-      "atr": 3.08,
-      "roc": 18.9,
-      "sma200": 101.17,
-      "sma50": 112.21,
-      "vol_dolar_m": 310.2,
+      "ticker": "ABNB",
+      "precio_ref": 166.45,
+      "stop": 155.41,
+      "rsi": 25.4,
+      "atr": 4.41,
+      "roc": 18.6,
+      "sma200": 146.55,
+      "sma50": 170.8,
+      "vol_dolar_m": 541.0,
       "ranking": 10,
       "fundamental": {
-        "sector": "Technology",
-        "per": 21.7,
-        "cap_b": 38.9,
-        "margen_pct": 27.4
+        "sector": "Consumer Cyclical",
+        "per": 37.4,
+        "cap_b": 98.4,
+        "margen_pct": 20.4
       },
-      "num_candidatos": 28,
-      "acciones": 6.57,
-      "importe": 710.94,
-      "riesgo_eur": 50.63
+      "num_candidatos": 15,
+      "acciones": 4.6,
+      "importe": 765.67,
+      "riesgo_eur": 50.76
     }
   ],
   "parametros_pullback": {
@@ -239,63 +239,75 @@
     "max_dias_posicion": 15
   },
   "cartera": {
-    "equity": 5066.81,
-    "cash": 2627.66,
+    "equity": 5081.08,
+    "cash": 2403.22,
     "capital_inicial": 5000.0,
-    "retorno_pct": 1.34,
+    "retorno_pct": 1.62,
     "posiciones": [
       {
         "ticker": "DXCM",
         "fecha": "2026-10-21",
         "precio": 80.3,
-        "precio_actual": 78.62,
+        "precio_actual": 79.93,
         "acciones": 7.6558,
         "stop": 73.69,
-        "pnl_pct": -2.09,
-        "dias": 5
-      },
-      {
-        "ticker": "MRNA",
-        "fecha": "2026-10-23",
-        "precio": 200.2,
-        "precio_actual": 214.16,
-        "acciones": 0.9448,
-        "stop": 146.94,
-        "pnl_pct": 6.98,
-        "dias": 4
+        "pnl_pct": -0.46,
+        "dias": 6
       },
       {
         "ticker": "MPC",
         "fecha": "2026-10-23",
         "precio": 457.45,
-        "precio_actual": 440.77,
+        "precio_actual": 432.51,
         "acciones": 1.2225,
         "stop": 416.13,
-        "pnl_pct": -3.65,
-        "dias": 4
+        "pnl_pct": -5.45,
+        "dias": 5
       },
       {
         "ticker": "PSX",
         "fecha": "2026-10-27",
         "precio": 268.66,
-        "precio_actual": 273.76,
+        "precio_actual": 273.61,
         "acciones": 2.0214,
         "stop": 243.57,
-        "pnl_pct": 1.9,
-        "dias": 1
+        "pnl_pct": 1.84,
+        "dias": 2
       },
       {
         "ticker": "HUM",
         "fecha": "2026-10-28",
         "precio": 412.08,
-        "precio_actual": 411.87,
+        "precio_actual": 417.56,
         "acciones": 1.3176,
         "stop": 373.41,
+        "pnl_pct": 1.33,
+        "dias": 1
+      },
+      {
+        "ticker": "TEAM",
+        "fecha": "2026-10-29",
+        "precio": 204.2,
+        "precio_actual": 204.1,
+        "acciones": 2.1261,
+        "stop": 180.2,
         "pnl_pct": -0.05,
         "dias": 0
       }
     ],
     "cerradas": [
+      {
+        "ticker": "MRNA",
+        "entrada_fecha": "2026-10-23",
+        "salida_fecha": "2026-10-29",
+        "entrada": 200.2,
+        "salida": 222.65,
+        "acciones": 0.9448,
+        "pnl": 21.21,
+        "pnl_pct": 11.21,
+        "dias": 6,
+        "motivo": "objetivo"
+      },
       {
         "ticker": "DELL",
         "entrada_fecha": "2026-10-15",
@@ -523,18 +535,6 @@
         "pnl_pct": 15.34,
         "dias": 4,
         "motivo": "objetivo"
-      },
-      {
-        "ticker": "CRL",
-        "entrada_fecha": "2026-09-09",
-        "salida_fecha": "2026-09-17",
-        "entrada": 278.49,
-        "salida": 281.53,
-        "acciones": 2.1927,
-        "pnl": 6.66,
-        "pnl_pct": 1.09,
-        "dias": 8,
-        "motivo": "objetivo"
       }
     ],
     "curva": [
@@ -741,114 +741,118 @@
       {
         "d": "2026-10-28",
         "v": 5066.81
+      },
+      {
+        "d": "2026-10-29",
+        "v": 5081.08
       }
     ],
     "ultimo_rebalanceo": null
   },
   "cartera_momentum": {
-    "equity": 4853.62,
+    "equity": 4679.63,
     "cash": 4.46,
     "capital_inicial": 5000.0,
-    "retorno_pct": -2.93,
+    "retorno_pct": -6.41,
     "posiciones": [
       {
         "ticker": "SNDK",
         "fecha": "2026-08-20",
         "precio": 1539.71,
-        "precio_actual": 1404.77,
+        "precio_actual": 1330.05,
         "acciones": 0.3622,
         "stop": 0,
-        "pnl_pct": -8.76,
+        "pnl_pct": -13.62,
         "dias": 0
       },
       {
         "ticker": "MU",
         "fecha": "2026-08-20",
         "precio": 975.82,
-        "precio_actual": 983.23,
+        "precio_actual": 934.27,
         "acciones": 0.511,
         "stop": 0,
-        "pnl_pct": 0.76,
+        "pnl_pct": -4.26,
         "dias": 0
       },
       {
         "ticker": "INTC",
         "fecha": "2026-08-20",
         "precio": 91.6,
-        "precio_actual": 95.53,
+        "precio_actual": 92.07,
         "acciones": 5.1568,
         "stop": 0,
-        "pnl_pct": 4.29,
+        "pnl_pct": 0.51,
         "dias": 0
       },
       {
         "ticker": "AMD",
         "fecha": "2026-08-20",
         "precio": 469.69,
-        "precio_actual": 578.44,
+        "precio_actual": 566.42,
         "acciones": 0.8677,
         "stop": 0,
-        "pnl_pct": 23.15,
+        "pnl_pct": 20.59,
         "dias": 0
       },
       {
         "ticker": "DELL",
         "fecha": "2026-08-20",
         "precio": 435.0,
-        "precio_actual": 493.79,
+        "precio_actual": 475.51,
         "acciones": 0.9825,
         "stop": 0,
-        "pnl_pct": 13.51,
+        "pnl_pct": 9.31,
         "dias": 0
       },
       {
         "ticker": "MRNA",
         "fecha": "2026-09-22",
         "precio": 182.65,
-        "precio_actual": 214.16,
+        "precio_actual": 222.76,
         "acciones": 2.241,
         "stop": 0,
-        "pnl_pct": 17.25,
+        "pnl_pct": 21.96,
         "dias": 0
       },
       {
         "ticker": "MRVL",
         "fecha": "2026-10-23",
         "precio": 228.62,
-        "precio_actual": 251.65,
+        "precio_actual": 218.34,
         "acciones": 1.9624,
         "stop": 0,
-        "pnl_pct": 10.07,
+        "pnl_pct": -4.5,
         "dias": 0
       },
       {
         "ticker": "TWLO",
         "fecha": "2026-10-23",
         "precio": 261.92,
-        "precio_actual": 253.77,
+        "precio_actual": 241.9,
         "acciones": 1.713,
         "stop": 0,
-        "pnl_pct": -3.11,
+        "pnl_pct": -7.64,
         "dias": 0
       },
       {
         "ticker": "ILMN",
         "fecha": "2026-10-23",
         "precio": 269.55,
-        "precio_actual": 288.79,
+        "precio_actual": 290.06,
         "acciones": 1.6644,
         "stop": 0,
-        "pnl_pct": 7.14,
+        "pnl_pct": 7.61,
         "dias": 0
       },
       {
         "ticker": "HPE",
         "fecha": "2026-10-23",
         "precio": 56.72,
-        "precio_actual": 60.33,
+        "precio_actual": 58.87,
         "acciones": 7.7753,
         "stop": 0,
-        "pnl_pct": 6.36,
+        "pnl_pct": 3.79,
         "dias": 0
       }
     ],
@@ -1118,6 +1122,10 @@
       {
         "d": "2026-10-28",
         "v": 4853.62
+      },
+      {
+        "d": "2026-10-29",
+        "v": 4679.63
       }
     ],
     "ultimo_rebalanceo": "2026-10-23"
