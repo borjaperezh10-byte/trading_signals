@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-03T02:59:49.912808+00:00",
+  "generado": "2026-11-04T01:33:40.460799+00:00",
   "fecha_datos": "2026-11-02",
   "es_demo": false,
   "regimen": {
@@ -18,12 +18,12 @@
       "roc": 106.1,
       "sma200": 167.88,
       "sma50": 241.25,
-      "vol_dolar_m": 2322.2,
+      "vol_dolar_m": 2322.5,
       "ranking": 1,
       "fundamental": {
         "sector": "Technology",
-        "per": 4030.2,
-        "cap_b": 247.6,
+        "per": 4893.6,
+        "cap_b": 250.5,
         "margen_pct": 0.8
       },
       "num_candidatos": 35,
@@ -45,7 +45,7 @@
       "fundamental": {
         "sector": "Technology",
         "per": null,
-        "cap_b": 47.4,
+        "cap_b": 48.4,
         "margen_pct": -0.8
       },
       "num_candidatos": 35,
@@ -66,8 +66,8 @@
       "ranking": 3,
       "fundamental": {
         "sector": "Technology",
-        "per": 879.3,
-        "cap_b": 287.9,
+        "per": 875.5,
+        "cap_b": 286.6,
         "margen_pct": 2.7
       },
       "num_candidatos": 35,
@@ -84,12 +84,12 @@
       "roc": 86.2,
       "sma200": 331.82,
       "sma50": 512.33,
-      "vol_dolar_m": 3264.8,
+      "vol_dolar_m": 3265.3,
       "ranking": 4,
       "fundamental": {
         "sector": "Technology",
-        "per": 22.8,
-        "cap_b": 249.7,
+        "per": 23.7,
+        "cap_b": 259.7,
         "margen_pct": 7.5
       },
       "num_candidatos": 35,
@@ -106,12 +106,12 @@
       "roc": 79.3,
       "sma200": 40.77,
       "sma50": 59.62,
-      "vol_dolar_m": 1107.9,
+      "vol_dolar_m": 1108.0,
       "ranking": 5,
       "fundamental": {
         "sector": "Technology",
-        "per": 26.4,
-        "cap_b": 68.0,
+        "per": 27.4,
+        "cap_b": 70.5,
         "margen_pct": 6.7
       },
       "num_candidatos": 35,
@@ -132,8 +132,8 @@
       "ranking": 6,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 72.5,
-        "cap_b": 16.9,
+        "per": 78.2,
+        "cap_b": 18.2,
         "margen_pct": 8.2
       },
       "num_candidatos": 35,
@@ -154,8 +154,8 @@
       "ranking": 7,
       "fundamental": {
         "sector": "Technology",
-        "per": 26.1,
-        "cap_b": 36.4,
+        "per": 26.9,
+        "cap_b": 37.5,
         "margen_pct": 19.2
       },
       "num_candidatos": 35,
@@ -176,8 +176,8 @@
       "ranking": 8,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 39.0,
-        "cap_b": 34.3,
+        "per": 41.0,
+        "cap_b": 36.0,
         "margen_pct": 19.7
       },
       "num_candidatos": 35,
@@ -198,8 +198,8 @@
       "ranking": 9,
       "fundamental": {
         "sector": "Technology",
-        "per": 33.1,
-        "cap_b": 17.1,
+        "per": 30.2,
+        "cap_b": 15.7,
         "margen_pct": 9.2
       },
       "num_candidatos": 35,
@@ -220,8 +220,8 @@
       "ranking": 10,
       "fundamental": {
         "sector": "Healthcare",
-        "per": 31.4,
-        "cap_b": 42.6,
+        "per": 31.9,
+        "cap_b": 43.3,
         "margen_pct": 8.1
       },
       "num_candidatos": 35,
@@ -252,7 +252,7 @@
         "acciones": 1.2225,
         "stop": 416.13,
         "pnl_pct": -5.92,
-        "dias": 6
+        "dias": 7
       },
       {
         "ticker": "PSX",
@@ -262,7 +262,7 @@
         "acciones": 2.0214,
         "stop": 243.57,
         "pnl_pct": 2.37,
-        "dias": 3
+        "dias": 4
       },
       {
         "ticker": "HUM",
@@ -272,7 +272,7 @@
         "acciones": 1.3176,
         "stop": 373.41,
         "pnl_pct": -0.41,
-        "dias": 2
+        "dias": 3
       },
       {
         "ticker": "TEAM",
@@ -282,7 +282,7 @@
         "acciones": 2.1261,
         "stop": 180.2,
         "pnl_pct": -8.38,
-        "dias": 1
+        "dias": 2
       },
       {
         "ticker": "CRWD",
@@ -292,7 +292,7 @@
         "acciones": 1.5307,
         "stop": 208.68,
         "pnl_pct": -0.05,
-        "dias": 0
+        "dias": 1
       }
     ],
     "cerradas": [
@@ -749,6 +749,10 @@
       {
         "d": "2026-11-02",
         "v": 5071.22
+      },
+      {
+        "d": "2026-11-02",
+        "v": 5071.22
       }
     ],
     "ultimo_rebalanceo": null
@@ -1134,12 +1138,16 @@
       {
         "d": "2026-11-02",
         "v": 3882.07
+      },
+      {
+        "d": "2026-11-02",
+        "v": 3882.07
       }
     ],
     "ultimo_rebalanceo": "2026-10-23"
   },
   "top_momentum": [],
-  "universo": 511,
+  "universo": 510,
   "metricas": {
     "Capital inicial": "5,000",
     "Capital final": "4,506",
