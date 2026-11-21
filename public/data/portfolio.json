@@ -6,38 +6,38 @@
       "TEAM": {
         "fecha": "2026-11-09",
         "precio": 154.98,
-        "precio_actual": 154.98,
+        "precio_actual": 134.65,
         "acciones": 1.7233,
         "stop": 126.8,
-        "pnl_pct": 0.0,
-        "dias": 8
+        "pnl_pct": -13.12,
+        "dias": 9
       },
       "WDAY": {
         "fecha": "2026-11-09",
         "precio": 190.31,
-        "precio_actual": 190.31,
+        "precio_actual": 174.52,
         "acciones": 2.4782,
         "stop": 170.67,
-        "pnl_pct": 0.0,
-        "dias": 8
+        "pnl_pct": -8.3,
+        "dias": 9
       },
       "MRNA": {
         "fecha": "2026-11-17",
         "precio": 206.9,
-        "precio_actual": 206.9,
+        "precio_actual": 195.0,
         "acciones": 0.9919,
         "stop": 158.92,
-        "pnl_pct": 0.0,
-        "dias": 2
+        "pnl_pct": -5.75,
+        "dias": 3
       },
       "VEEV": {
         "fecha": "2026-11-18",
         "precio": 277.34,
-        "precio_actual": 277.34,
+        "precio_actual": 266.22,
         "acciones": 2.014,
         "stop": 253.49,
-        "pnl_pct": 0.0,
-        "dias": 1
+        "pnl_pct": -4.01,
+        "dias": 2
       }
     },
     "cerradas": [
@@ -846,6 +846,10 @@
       {
         "d": "2026-11-19",
         "v": 4849.94
+      },
+      {
+        "d": "2026-11-20",
+        "v": 4741.58
       }
     ],
     "ultimo_rebalanceo": null
@@ -866,82 +870,82 @@
       "MU": {
         "fecha": "2026-08-20",
         "precio": 975.82,
-        "precio_actual": 690.44,
+        "precio_actual": 594.51,
         "acciones": 0.511,
         "stop": 0,
-        "pnl_pct": -29.25,
+        "pnl_pct": -39.08,
         "dias": 0
       },
       "INTC": {
         "fecha": "2026-08-20",
         "precio": 91.6,
-        "precio_actual": 55.72,
+        "precio_actual": 51.28,
         "acciones": 5.1568,
         "stop": 0,
-        "pnl_pct": -39.17,
+        "pnl_pct": -44.02,
         "dias": 0
       },
       "AMD": {
         "fecha": "2026-08-20",
         "precio": 469.69,
-        "precio_actual": 489.19,
+        "precio_actual": 424.39,
         "acciones": 0.8677,
         "stop": 0,
-        "pnl_pct": 4.15,
+        "pnl_pct": -9.64,
         "dias": 0
       },
       "DELL": {
         "fecha": "2026-08-20",
         "precio": 435.0,
-        "precio_actual": 435.0,
+        "precio_actual": 278.02,
         "acciones": 0.9825,
         "stop": 0,
-        "pnl_pct": 0.0,
+        "pnl_pct": -36.09,
         "dias": 0
       },
       "MRNA": {
         "fecha": "2026-09-22",
         "precio": 182.65,
-        "precio_actual": 182.65,
+        "precio_actual": 195.0,
         "acciones": 2.241,
         "stop": 0,
-        "pnl_pct": 0.0,
+        "pnl_pct": 6.76,
         "dias": 0
       },
       "MRVL": {
         "fecha": "2026-10-23",
         "precio": 228.62,
-        "precio_actual": 138.47,
+        "precio_actual": 122.28,
         "acciones": 1.9624,
         "stop": 0,
-        "pnl_pct": -39.43,
+        "pnl_pct": -46.51,
         "dias": 0
       },
       "TWLO": {
         "fecha": "2026-10-23",
         "precio": 261.92,
-        "precio_actual": 261.92,
+        "precio_actual": 172.1,
         "acciones": 1.713,
         "stop": 0,
-        "pnl_pct": 0.0,
+        "pnl_pct": -34.29,
         "dias": 0
       },
       "ILMN": {
         "fecha": "2026-10-23",
         "precio": 269.55,
-        "precio_actual": 200.66,
+        "precio_actual": 192.82,
         "acciones": 1.6644,
         "stop": 0,
-        "pnl_pct": -25.56,
+        "pnl_pct": -28.47,
         "dias": 0
       },
       "HPE": {
         "fecha": "2026-10-23",
         "precio": 56.72,
-        "precio_actual": 56.72,
+        "precio_actual": 40.91,
         "acciones": 7.7753,
         "stop": 0,
-        "pnl_pct": 0.0,
+        "pnl_pct": -27.87,
         "dias": 0
       }
     },
@@ -1271,6 +1275,10 @@
       {
         "d": "2026-11-19",
         "v": 3958.87
+      },
+      {
+        "d": "2026-11-20",
+        "v": 3382.56
       }
     ],
     "ultimo_rebalanceo": "2026-10-23"
