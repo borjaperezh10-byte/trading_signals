@@ -1,12 +1,12 @@
 {
-  "generado": "2026-11-24T05:25:29.604792+00:00",
-  "fecha_datos": "2026-11-23",
+  "generado": "2026-11-25T04:27:49.100574+00:00",
+  "fecha_datos": "2026-11-24",
   "es_demo": false,
   "regimen": {
     "alcista": false,
-    "spy": 722.29,
-    "sma200": 730.47,
-    "distancia_pct": -1.12
+    "spy": 718.78,
+    "sma200": 730.62,
+    "distancia_pct": -1.62
   },
   "senales": [],
   "parametros_pullback": {
@@ -18,53 +18,55 @@
     "max_dias_posicion": 15
   },
   "cartera": {
-    "equity": 4775.78,
-    "cash": 3347.45,
+    "equity": 4810.55,
+    "cash": 3572.65,
     "capital_inicial": 5000.0,
-    "retorno_pct": -4.48,
+    "retorno_pct": -3.79,
     "posiciones": [
       {
         "ticker": "TEAM",
         "fecha": "2026-11-09",
         "precio": 154.98,
-        "precio_actual": 139.58,
+        "precio_actual": 140.81,
         "acciones": 1.7233,
         "stop": 126.8,
-        "pnl_pct": -9.94,
-        "dias": 10
+        "pnl_pct": -9.14,
+        "dias": 11
       },
       {
         "ticker": "WDAY",
         "fecha": "2026-11-09",
         "precio": 190.31,
-        "precio_actual": 176.08,
+        "precio_actual": 179.23,
         "acciones": 2.4782,
         "stop": 170.67,
-        "pnl_pct": -7.48,
-        "dias": 10
-      },
-      {
-        "ticker": "MRNA",
-        "fecha": "2026-11-17",
-        "precio": 206.9,
-        "precio_actual": 212.08,
-        "acciones": 0.9919,
-        "stop": 158.92,
-        "pnl_pct": 2.5,
-        "dias": 4
+        "pnl_pct": -5.82,
+        "dias": 11
       },
       {
         "ticker": "VEEV",
         "fecha": "2026-11-18",
         "precio": 277.34,
-        "precio_actual": 268.65,
+        "precio_actual": 273.62,
         "acciones": 2.014,
         "stop": 253.49,
-        "pnl_pct": -3.13,
-        "dias": 3
+        "pnl_pct": -1.34,
+        "dias": 4
       }
     ],
     "cerradas": [
+      {
+        "ticker": "MRNA",
+        "entrada_fecha": "2026-11-17",
+        "salida_fecha": "2026-11-24",
+        "entrada": 206.9,
+        "salida": 227.27,
+        "acciones": 0.9919,
+        "pnl": 20.2,
+        "pnl_pct": 9.84,
+        "dias": 7,
+        "motivo": "objetivo"
+      },
       {
         "ticker": "OKTA",
         "entrada_fecha": "2026-11-03",
@@ -292,18 +294,6 @@
         "pnl_pct": -13.84,
         "dias": 14,
         "motivo": "stop"
-      },
-      {
-        "ticker": "SJM",
-        "entrada_fecha": "2026-10-05",
-        "salida_fecha": "2026-10-08",
-        "entrada": 116.29,
-        "salida": 119.35,
-        "acciones": 7.2668,
-        "pnl": 22.24,
-        "pnl_pct": 2.63,
-        "dias": 3,
-        "motivo": "objetivo"
       }
     ],
     "curva": [
@@ -578,6 +568,10 @@
       {
         "d": "2026-11-23",
         "v": 4775.78
+      },
+      {
+        "d": "2026-11-24",
+        "v": 4810.55
       }
     ],
     "ultimo_rebalanceo": null
@@ -1041,22 +1035,15 @@
       {
         "d": "2026-11-23",
         "v": 3739.45
+      },
+      {
+        "d": "2026-11-24",
+        "v": 3739.45
       }
     ],
     "ultimo_rebalanceo": "2026-11-23"
   },
-  "top_momentum": [
-    "MRNA",
-    "ILMN",
-    "VLO",
-    "HPE",
-    "MPC",
-    "OKTA",
-    "APA",
-    "AMD",
-    "PSX",
-    "CRWD"
-  ],
+  "top_momentum": [],
   "universo": 511,
   "metricas": {
     "Capital inicial": "5,000",
