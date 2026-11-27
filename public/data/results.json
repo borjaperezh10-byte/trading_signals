@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T03:41:50.693786+00:00",
+  "generado": "2026-11-27T03:42:48.523275+00:00",
   "fecha_datos": "2026-11-25",
   "es_demo": false,
   "regimen": {
@@ -31,7 +31,7 @@
         "acciones": 2.4782,
         "stop": 170.67,
         "pnl_pct": -5.19,
-        "dias": 12
+        "dias": 13
       },
       {
         "ticker": "VEEV",
@@ -41,7 +41,7 @@
         "acciones": 2.014,
         "stop": 253.49,
         "pnl_pct": -1.96,
-        "dias": 5
+        "dias": 6
       }
     ],
     "cerradas": [
@@ -566,6 +566,10 @@
       {
         "d": "2026-11-25",
         "v": 4815.88
+      },
+      {
+        "d": "2026-11-25",
+        "v": 4815.88
       }
     ],
     "ultimo_rebalanceo": null
@@ -1037,12 +1041,16 @@
       {
         "d": "2026-11-25",
         "v": 3739.45
+      },
+      {
+        "d": "2026-11-25",
+        "v": 3739.45
       }
     ],
     "ultimo_rebalanceo": "2026-11-23"
   },
   "top_momentum": [],
-  "universo": 511,
+  "universo": 510,
   "metricas": {
     "Capital inicial": "5,000",
     "Capital final": "4,506",
